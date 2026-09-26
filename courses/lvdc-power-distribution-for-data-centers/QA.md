@@ -50,3 +50,8 @@ python3 skills/academy-wizard/scripts/validate_package.py \
 ## Remaining release check
 
 SCORM 1.2 multi-SCO and syllabus entries are preserved. Test actual LMS launch, navigation, resume, quiz persistence and separate module completion before deployment. Local Chromium and mock-SCORM checks cannot establish those server/LMS behaviors. PDF page-anchor behavior also depends on the learner's PDF viewer. No live LMS upload is part of this validation.
+
+
+## M9S2 pronunciation correction — 26 September 2026
+
+Replaced the spoken initialism in the reported sentence with “Low-voltage direct current” and regenerated only M9S2 with the recorded Leo v2 / Multilingual v2 / 1.18 settings. Local transcription recognizes the complete phrase, and Module 9 audio-tail checks and package validation pass. The other 99 WAVs and all videos are unchanged. Total measured narration remains 105.2 minutes. The delivery transcript and ZIP were refreshed. GitHub upload is paused at the user's request pending a better network; no PR has been opened.
