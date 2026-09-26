@@ -1,0 +1,7 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Welcome to L V D C Power Distribution for Data Centers. This course explores the choices, interfaces, and evidence behind low-voltage direct-current distribution, using version one dot one dot zero of the O C P white paper.
+
+We begin with the architecture: what changes when D C distribution moves upstream, where conversion and isolation belong, and why spare source capacity is different from a working path to the load.
+
+Keep a practical question in mind throughout the course. What would you need to know before accepting a proposed interface or operating state? The aim is to make that review more precise, from the facility boundary to the rack.

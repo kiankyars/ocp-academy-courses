@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Distinguish emissions, immunity and dynamic stability questions. Follow complete current paths through cables, filters and earth references. Verify representative configurations and operating states at system level.
+
+Noise paths, filters, grounding and converter controls interact. Component compliance does not by itself demonstrate the behavior of an assembled facility.
+
+Pause for a brief application before continuing. Choose one noise or control-interaction concern. Which physical path and operating state would a representative test need to include?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

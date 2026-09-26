@@ -1,0 +1,5 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+You have completed module 5: Power conversion storage and distribution. Conversion, storage, distribution and cooling choices must serve the same operating and fault requirements. Component labels alone cannot establish system suitability.
+
+The next module, The L V D C rack interface, builds on this boundary by asking a different set of connected questions. Continue through the course modules using the learning platform syllabus. You can also return to this module whenever you need to revisit the paper links, figures, or knowledge-check feedback.

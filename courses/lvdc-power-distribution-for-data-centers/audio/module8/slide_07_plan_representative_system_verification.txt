@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A representative verification plan begins with the installation it is meant to represent. Use relevant cable arrangements, return paths, bonding, shielding, and auxiliary connections. A convenient bench setup can answer a useful question, but its result should not be stretched beyond that setup without justification.
+
+Include the connected equipment population. Multiple converters and filters can create paths or interactions that are absent in a single-device test. The chosen earthing arrangement and bus configuration should be part of the test definition.
+
+Select operating cases deliberately. Normal load, light load, startup, current limiting, faults, and recovery can produce different behavior. The required set depends on the system and the claim being verified; it should not be chosen only because one steady-state case is easy to demonstrate.
+
+Then identify the applicable acceptance criteria. The paper discusses practices and open test questions, including a small ripple percentage as guidance. Do not convert that discussion into a universal compliance limit. The product and installation requirements must establish the actual criterion and measurement conditions.
+
+A useful report connects the result to its scope. State what was tested, under which conditions, against which criterion, and what remains unresolved. Component certificates remain valuable evidence, but the system review must explain how the assembled arrangement's emissions, immunity, and dynamic behavior are addressed.

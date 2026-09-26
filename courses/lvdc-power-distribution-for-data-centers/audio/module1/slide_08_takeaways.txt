@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Choose an architecture against stated service and maintenance requirements. Locate conversion and isolation, then trace viable source-to-load paths. Include cooling and other dependencies in the availability claim.
+
+L V D C is a set of architecture choices. Conversion placement, fault boundaries and viable alternate paths must be evaluated together.
+
+Pause for a brief application before continuing. Choose one failure boundary in a power-chain drawing. Can you trace a complete surviving route to the load, including the supporting services?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

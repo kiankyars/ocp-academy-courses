@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+The paper identifies six likely combinations as a review set. These combine voltage, polarity, earthing, and midpoint distribution. They are not six equally interchangeable products, and their order is not a ranking.
+
+The table preserves the combinations listed in the current paper. It includes bipolar arrangements with or without a distributed midpoint, as well as unipolar alternatives. The slash notation in the paired voltage designations must be interpreted with the conductor arrangement, rather than read as two unrelated product ratings.
+
+To use the set, start with the loads and the intended operating states. Which connections do the loads require? What voltage appears between conductors and relative to earth? Which isolation, switching, and protective functions are required? Then compare the relevant equipment evidence with that combination.
+
+Read the detailed configuration matrix and its footnotes, including overvoltage-category assumptions. A compact teaching table cannot carry every qualification from the full matrix. The linked pages provide the context needed for an engineering review.
+
+Avoid turning a broad statement about the difficulty of a large I T installation into a categorical rule that erases the paper's own I T candidates. The better conclusion is that distributed capacitance, insulation monitoring, device ratings, and fault response need specific evaluation. A candidate configuration becomes credible through that evidence, not simply because it appears on the short list.

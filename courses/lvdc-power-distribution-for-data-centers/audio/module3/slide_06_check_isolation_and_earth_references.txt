@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Isolation and referencing are related decisions, but they are not interchangeable. An isolation barrier separates circuits. An earth reference establishes how a circuit relates to earth. An insulation monitoring function looks for deterioration of the insulation relationship. A diagram should make clear which equipment provides each function.
+
+The paper considers boundaries between medium voltage and low voltage, and between low voltage and the extra-low-voltage circuits used by downstream equipment. Moving an isolation stage can change the part of the system that shares an earth-reference or common-mode behavior. That affects the assumptions used in protection and compatibility reviews.
+
+A system referencing device is discussed as a way to establish or manage the system's relationship to earth in the relevant arrangement. Its presence does not automatically prove that an installation has the required galvanic isolation or that every connected product is compatible. Review its function together with the rest of the circuit.
+
+The paper also raises corrosion concerns from unintended D C paths through structures. The small potential values discussed for steel-reinforced concrete belong to that corrosion context. They are not human shock-safety thresholds and should not be transferred into a touch-safety rule.
+
+When the drawing is complete, ask three separate questions: where is isolation provided, how is the live circuit referenced, and how are abnormal insulation or fault conditions detected and handled? Answering those questions explicitly is more useful than assuming one named device performs all three jobs.

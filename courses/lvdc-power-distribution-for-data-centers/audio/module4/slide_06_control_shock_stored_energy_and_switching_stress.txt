@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+An electronic switch can report off while hazardous voltage remains somewhere in the circuit. Input or output capacitors may still be charged. Another source may backfeed the isolated section. A measurement or communication signal may also be unavailable or misleading during a fault.
+
+Separate three ideas: the command sent to equipment, the state reported by its controller, and the independently verified electrical condition. Those states should agree in a well-designed system, but a command alone is not evidence that the physical condition is safe for maintenance.
+
+Interruption also creates switching stress. Current flowing through inductance cannot disappear without an associated voltage response. Clamping and energy-absorption elements must be coordinated with the interruption function and the equipment's withstand capability. A fast switch therefore remains part of an energy-management problem.
+
+The conceptual diagram traces possible remaining energy from capacitors and alternate sources. It is intended to help reviewers identify the required isolation, discharge, and verification functions. It is not a sequence for performing live work or a substitute for an approved maintenance procedure.
+
+For a real installation, define the safe state, the means of reaching it, and how it is confirmed. Include possible voltage rebound, backfeed, and the response when a required measurement is unavailable. The protection design and the operating procedure need to agree on the same physical boundaries.

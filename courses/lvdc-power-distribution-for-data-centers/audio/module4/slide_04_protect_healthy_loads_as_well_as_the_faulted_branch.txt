@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+Protection has to interrupt the faulted path while preserving the intended service elsewhere. This example contains a source converter, stored energy on the bus, and two rack branches. One branch will fault. The other rack is the load we want to keep operating. Its input-voltage tolerance is part of the protection review, alongside the interrupting devices.
+
+When the branch fault occurs, several paths can feed it. Source-side capacitance releases energy, and the converter responds according to its design. Stored energy on a neighboring load can also feed backward if the interface permits that path. Follow the directions of current. Healthy-branch protection can experience a fault contribution even though the fault is elsewhere. Actual magnitudes depend on the network and equipment.
+
+In the first illustrative case, branch protection interrupts the fault before the healthy load exhausts its assumed tolerance. Align the electrical events with the voltage trace: the fault begins, the voltage falls, the selected branch opens, and the remaining bus recovers. Recovery also depends on the remaining sources and controls. The shaded boundary represents this example's load tolerance, not a universal requirement.
+
+Now compare a separate case with a longer disturbance. The fault still clears, but the healthy load leaves its tolerated region first. Eventual interruption has not preserved the required service. A faster individual device is not enough on its own either. Its action must coordinate with the other protection functions, including reverse current on healthy branches and the intended response of connected converters.
+
+The two traces lead to different service outcomes, although both end with the faulted branch open. For a real design, compare validated fault behavior, protection actions and load tolerance on the same timeline. Include stored-energy contributions and alternate-feed conditions where they exist. The animation explains that comparison. It does not establish a clearing time, a fault-current rating, or successful continuity for an untested installation.

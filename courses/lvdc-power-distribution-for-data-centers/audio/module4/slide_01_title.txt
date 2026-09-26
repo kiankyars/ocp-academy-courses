@@ -1,0 +1,7 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Welcome to module 4: Fault behavior protection and personnel safety. Fast interruption is one part of protection.
+
+Fault behavior depends on the whole system. A device’s speed does not by itself establish selectivity, electrical isolation or safe maintenance conditions.
+
+We will work through five connected questions, then apply the central ideas in a short knowledge check. The paper links under the teaching slides take you to the relevant pages, so you can examine the underlying discussion while keeping the course's system boundary in view.

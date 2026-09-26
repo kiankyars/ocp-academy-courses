@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+Begin with two sources feeding a shared direct-current bus and two racks. Each rack has one feeder. Assume the remaining source can carry the required load if the other source is unavailable. That is the capacity assumption behind this N plus one example. Now distinguish the amount of source capacity from the routes that actually connect it to the loads.
+
+In the first case, one source becomes unavailable. The other source still has routes through the bus to both racks. The topology permits supply to continue, provided the remaining capacity and equipment response meet the service requirement. The drawing establishes the route; the transient behavior and actual availability still need evidence. A surviving line on a diagram does not prove uninterrupted operation.
+
+Reset to the original arrangement and consider a different failure. This time Rack B's only feeder becomes unavailable. Source capacity remains upstream, but the route ends at the interruption. Adding another source to the same bus would not bridge that gap. Rack A retains its separate route, subject to protection and voltage recovery. Rack B's continuity has not been established.
+
+Now change the design explicitly. Add a second feeder that bypasses the affected feeder boundary. Trace that alternative all the way to a compatible rack input. The route also needs the required protection, switching or sharing behavior, and available equipment. This is an alternative arrangement, not a recovery path that secretly existed in the original single-fed rack.
+
+Both feeders in this alternative still depend on the shared bus. They address a feeder interruption, but they do not remove that common dependency. Repeat the path review for the faults and maintenance conditions in the service requirement. Source redundancy describes capacity. Distribution redundancy describes usable routes. A credible availability claim needs both, together with evidence that the connected equipment behaves as required.

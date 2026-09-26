@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+The paper is both a technical explanation and a record of developing proposals. That means the reader must pay attention to the status of a figure, not just its visual precision. A carefully drawn envelope can still contain open questions.
+
+The interoperability proposals in chapter five address the relationship between seven-hundred-volt and eight-hundred-volt systems. Figures five point fourteen and five point fifteen do not establish one identical, settled source-and-load contract. In particular, continuous behavior and short transient obligations must be read separately.
+
+Chapter nine adds a preliminary rack envelope. That proposal includes unresolved time values and conditions that do not simply duplicate the chapter-five discussion. Do not combine the most convenient limits from these figures into a new curve and call it the paper's requirement.
+
+The same caution applies to eight hundred forty volts. It is useful to understand why a proposed value is being discussed. It is not useful to teach that value as a universal ceiling for every source, every load, and every duration.
+
+When reviewing an interface, record the exact document version, figure, and unresolved item. Ask the responsible parties to agree on the continuous range, the transient envelope, the available power, and the protective response. The learning goal is to recognize what must be resolved before connecting equipment, rather than memorize a number whose meaning changes with its context.

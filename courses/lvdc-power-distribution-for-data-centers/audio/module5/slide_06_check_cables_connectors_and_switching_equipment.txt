@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Distribution equipment turns an architecture into a physical current path. Cable length, conductor size, routing, and temperature affect resistance, current capability, and voltage drop. The voltage delivered to the load is therefore not identical to the voltage specified at the converter terminals.
+
+As current rises, cable drop consumes part of the available operating margin. A short connection and a long feeder cannot be treated as equivalent simply because their nominal voltage is the same. The compatibility review needs the relevant operating and transient conditions at the actual load terminals.
+
+Connectors and switching equipment add their own constraints. Confirm the D C rating, polarity, insulation duty, current capability, and the intended sequence of connection or disconnection. A connector should not be assumed capable of breaking load current unless that duty is explicitly supported.
+
+Interlocks and presence detection can help prevent an inappropriate energized connection state, but their behavior must be part of a coordinated design. They do not remove the need for suitable contacts, protective bonding, isolation, and verified operating procedures.
+
+The diagram highlights these interfaces without providing a conductor-sizing or connector-selection calculation. For a real path, assemble the relevant ratings and installation conditions, then check them as a set. An A C rating should not be copied into a D C application by assumption. The evidence must match the electrical duty the part will actually perform.

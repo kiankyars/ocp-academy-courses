@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+An architecture comparison becomes useful when its criteria are explicit. Begin with the service requirement. Which loads must continue, for how long, and through which events? Workload labels can inform the discussion, but a training or inference label does not establish a universal availability target.
+
+Next, describe the electrical and physical constraints. A retrofit may be limited by existing rooms, cable routes, protection equipment, and rack interfaces. A new build has different options, but still needs equipment that can be installed, tested, maintained, and replaced. State the conversion and isolation boundaries instead of treating them as invisible implementation details.
+
+Then include supporting services. An energized computing load cannot sustain useful operation indefinitely if the required cooling is unavailable. Control power, communications, and monitoring can also create dependencies that are easy to miss in a power-only drawing.
+
+Finally, compare evidence at equivalent conditions. Losses depend on loading and operating states. Space savings depend on what equipment moves and what additional equipment is required. A case study from another facility can illustrate a choice without proving the same outcome for this installation.
+
+The Open Data Center for A I companion course extends this review into facility compatibility, power and cooling capacity, and evidence for site variations. Use it when a promising electrical architecture must be tested against the wider facility envelope. The result of this module should be a set of review criteria, not a premature choice of a winning architecture.

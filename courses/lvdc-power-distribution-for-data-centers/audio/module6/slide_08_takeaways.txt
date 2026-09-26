@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Assign conversion, protection and control ownership at the rack boundary. Review operating voltage, transients and controlled energization together. Coordinate local buffering with upstream support and its energy limits.
+
+Rack entry architecture determines conversion, protection and control responsibilities. Compatibility includes startup, transients and local energy storage.
+
+Pause for a brief application before continuing. Choose one rack entry approach. Can you assign an owner to conversion, precharge, protection, isolation, and local energy storage?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

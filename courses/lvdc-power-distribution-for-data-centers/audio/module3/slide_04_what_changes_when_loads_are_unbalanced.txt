@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+Consider a bipolar arrangement with the positive conductor, midpoint M and negative conductor all distributed. One load is connected between the positive pole and M. The other is connected between M and the negative pole. Protective earth is drawn separately. The arrows use conventional current directions. This is a defined load circuit, not an earth-fault example.
+
+With equal pole-to-midpoint loads, matching currents flow in the two pole circuits. At the shared midpoint segment, their contributions cancel. Follow each complete loop through its source section and load. Zero current in that shared segment is a result of the balanced operating condition. It is not a reason to assume that the midpoint never carries current.
+
+Increase the positive-pole load while the other load stays unchanged. The shared midpoint now carries the difference. The conductor indicators use normalized currents so the relationship is visible without prescribing ratings. The current returns in the intended midpoint circuit. Protective earth does not become its normal load return. The changed load condition changes which conductors are carrying current.
+
+Consider another operating state. Reduce the positive-pole demand and increase the negative-pole demand. The mismatch reverses, and so does current in the shared midpoint segment. Workloads, staged startup and branch maintenance can all change the balance. A design snapshot with equal loads does not represent every ordinary operating condition.
+
+Hold the unequal-load condition and review the midpoint's thermal capability, switching and protection responsibilities. Any reduced midpoint rating depends on limiting imbalance or providing appropriate protection. Source capability and downstream compatibility also matter. Use the paper's configuration matrix and its footnotes for the actual arrangement. The useful habit is to follow the currents before turning a simplified balanced drawing into a design assumption.

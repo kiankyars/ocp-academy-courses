@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A data center has obligations at its utility connection as well as requirements inside the facility. The point of common coupling is the electrical boundary used for the applicable grid-interface assessment. Voltage ride-through, power recovery, ramping, and power-quality requirements must be understood at that boundary.
+
+Storage might keep an internal D C bus energized while the facility's behavior at the utility connection fails a required response. Conversely, a facility might meet a grid-interface obligation while one internal load loses continuity because its local distribution or cooling path is inadequate. The two outcomes must be reviewed separately.
+
+Requirements depend on the connection agreement, network, jurisdiction, and applicable documents. A timing value or recovery rule from one setting should not be taught as a universal obligation for all installations. Identify the governing requirement before comparing a proposed converter or control strategy with it.
+
+Map the boundary, the measured variables, and the equipment that controls those variables. Then ask how internal controls coordinate with the grid-side response. Storage, converters, and load admission can affect both sides of that discussion, but they do so through specific operating behavior.
+
+The companion Academy course on grid disturbance performance develops this topic in more depth, including voltage-time envelopes, active-power recovery, and cooling coordination. Use it to examine the grid-side obligation while this course follows the connected low-voltage D C architecture toward the rack.

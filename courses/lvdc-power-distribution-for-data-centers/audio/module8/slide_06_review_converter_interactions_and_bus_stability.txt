@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A regulated load can draw more current when its input voltage falls in an attempt to maintain power. Over part of its operating range, that behavior can appear as negative incremental impedance: a decrease in voltage is associated with an increase in current demand.
+
+This does not mean every regulated load is unstable. It means the load's dynamic behavior must be considered together with the source, cables, filters, and other connected converters. Their impedances and control responses can interact, including through resonances.
+
+For example, a source controller may respond to a bus-voltage change while a load controller changes current and an input filter stores and releases energy. The resulting behavior depends on their combined dynamics. Successful operation of each component with a different test source does not prove the behavior of the assembled bus.
+
+Operating state matters too. Light load, full load, current limiting, bus-tie changes, and equipment connection or disconnection can alter the interaction. A stability assessment should cover the states and configurations that the system is expected to use.
+
+The conceptual diagram shows the feedback relationship without teaching control-loop mathematics or implying a universal instability threshold. The review question is whether the combined source and load behavior has been assessed with representative impedances and operating modes. That evidence belongs alongside the electromagnetic compatibility plan, while remaining a distinct system-performance question.

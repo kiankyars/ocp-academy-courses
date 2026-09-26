@@ -44,6 +44,7 @@ courses/
     module-2-the-ocp-ecosystem-governance/
     module-3-ocp-technologies-open-rack-cooling/
     module-4-today-and-tomorrow-the-journey/
+  lvdc-power-distribution-for-data-centers/
   multipath-reliable-connection-mrc/
   ocp-esun-ethernet-for-scale-up-networks/
   ocp-lock-secure-key-management-for-self-encrypting-storage/
@@ -128,6 +129,7 @@ Use AcademyWizard to build a Scrolling course from the course source in this rep
 | `intro-to-ocp/module-2-the-ocp-ecosystem-governance` | Module 2: The OCP Ecosystem & Governance |
 | `intro-to-ocp/module-3-ocp-technologies-open-rack-cooling` | Module 3: OCP Technologies (Open Rack & Cooling) |
 | `intro-to-ocp/module-4-today-and-tomorrow-the-journey` | Module 4: Today and Tomorrow (The Journey) |
+| `lvdc-power-distribution-for-data-centers` | LVDC Power Distribution for Data Centers |
 | `multipath-reliable-connection-mrc` | OCP Academy - MRC Technical Overview |
 | `ocp-esun-ethernet-for-scale-up-networks` | OCP ESUN: Ethernet for Scale-Up Networks |
 | `ocp-lock-secure-key-management-for-self-encrypting-storage` | OCP L.O.C.K.: Secure Key Management for Self-Encrypting Storage |

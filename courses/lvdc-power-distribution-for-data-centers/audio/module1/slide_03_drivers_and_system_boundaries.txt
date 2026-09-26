@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Low-voltage direct current, or L V D C, is an architecture choice for moving electrical power through part of a data center. The motivation is broader than changing the waveform. Higher rack power makes conductor current, conversion equipment, floor space, and the location of energy storage more consequential.
+
+For the same transferred power, a higher distribution voltage can reduce current. That creates opportunities, but the equipment must still satisfy insulation, protection, thermal, and operating requirements. Likewise, removing a conversion stage can reduce some losses, while a different isolation or regulation arrangement may add stages elsewhere. An efficiency claim needs a defined comparison and operating point.
+
+The O C P paper covers low-voltage D C distribution up to fifteen hundred volts. Its boundary includes conversion from medium-voltage A C and distribution toward the rack. It does not make medium-voltage D C distribution part of this course. Direct battery connection to the bus without a converter is also outside the paper's scope.
+
+Start a review by drawing that boundary. Include the sources, distribution paths, rack interface, storage interfaces, and cooling dependencies. Then ask which problem the change is intended to solve. A retrofit constrained by space may reach a different answer from a new facility designed around high-power racks. Neither should begin with a promised universal efficiency gain.

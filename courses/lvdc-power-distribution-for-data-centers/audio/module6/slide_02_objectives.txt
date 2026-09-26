@@ -1,0 +1,7 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+This module connects three review tasks. Compare the three rack interface approaches. explain inrush, precharge and hot-swap control functions. identify rack-level compatibility and buffering evidence.
+
+Rack entry architecture determines conversion, protection and control responsibilities. Compatibility includes startup, transients and local energy storage.
+
+The five teaching slides build those tasks into a single system view. Read the paper links when you need the original discussion and its qualifications. Before the knowledge check, take a moment to apply the ideas to the short review prompt. You can replay the narration, inspect the figures at full size, and revisit a slide as needed.

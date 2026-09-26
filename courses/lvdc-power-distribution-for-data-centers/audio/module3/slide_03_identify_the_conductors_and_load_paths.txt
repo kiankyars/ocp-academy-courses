@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Polarity describes how the conductors and voltages are arranged. In a unipolar system, a load is connected across one D C supply. A bipolar arrangement provides positive and negative poles around a midpoint. Loads may connect across the full pole-to-pole voltage or between a pole and the midpoint, depending on the architecture.
+
+The midpoint conductor is often labeled M. It must not be confused with protective earth, labeled P E. When pole-to-midpoint loads are used, the midpoint can be part of the normal load-current circuit. Protective earth serves the protective bonding and fault-related role defined by the system; it is not a replacement normal load-current return.
+
+The paper distinguishes arrangements with full, partial, or absent midpoint distribution. These choices affect which loads can be connected and where current flows. A midpoint present at a source does not prove that it is distributed to every downstream load.
+
+Trace a normal load circuit before considering a fault. Identify the outgoing conductor, the return conductor, and the voltage across the load. Then trace a separate protective path. Keeping these two drawings conceptually distinct makes later questions about imbalance, insulation, and fault detection much easier to answer.
+
+The diagram is a functional explanation, not a wiring prescription. For a real installation, conductor arrangement, ratings, switching, and bonding must be selected together with the applicable equipment and installation requirements.

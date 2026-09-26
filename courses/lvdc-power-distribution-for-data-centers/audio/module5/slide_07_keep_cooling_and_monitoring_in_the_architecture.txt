@@ -1,0 +1,23 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+An electrical architecture must include the services that make computing operation possible.
+
+A coolant distribution unit, often shortened to C D U, may have electrical supplies, controls, pumps, and communications that need to remain available or recover in a defined sequence.
+
+If rack power returns before adequate cooling is available, admitting the full computing load can create a thermal problem even though the electrical bus looks healthy. The required cooling response depends on the design and its available thermal margin.
+
+It should be a stated operating condition, not a background assumption.
+
+Monitoring should therefore support decisions, rather than merely collect data. Which measurements show available electrical capacity? Which indicate that cooling is ready?
+
+Which storage state or equipment limit constrains the next group of loads? Determine who owns those signals and what happens when they are missing or stale.
+
+Control coordination connects these measurements to the operating sequence. A source can be healthy while the system still needs to hold new loads out.
+
+A cooling path can be available while storage remains insufficient for the intended recovery plan. The admission decision needs the combined conditions.
+
+Carry those dependencies into the system diagram and the sequence of operations. When reviewing a proposed power architecture, trace both the path that energizes the rack and the path that keeps its required cooling operational.
+
+That makes the availability claim a statement about useful service, rather than bus voltage alone.
+
+The O C P Academy course on Project Deschutes provides a concrete coolant distribution unit example. It covers pumps, heat exchangers, control loops, redundant power feeds, and serviceability. Use that course to examine the cooling equipment and its interfaces in more detail.

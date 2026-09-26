@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Electromagnetic compatibility asks whether connected equipment can function together in its intended electromagnetic environment without creating unacceptable disturbance. Two complementary questions organize the review: what disturbances are emitted, and what disturbances must be tolerated?
+
+Emissions can travel along conductors or couple through fields. Immunity concerns the response of equipment exposed to a disturbance. A device that meets one emissions test has not thereby demonstrated every immunity requirement or every assembled-system interaction.
+
+Power converters are especially relevant because switching creates changing voltages and currents. Cables, filters, bonding, enclosures, and the physical arrangement influence where those disturbances travel. An A C interface and a D C interface may present different paths and test questions within the same assembly.
+
+Begin with the actual system boundary and operating states. Which converters are active? Which cables and auxiliary connections are present? Which equipment must continue to function during a disturbance? Then identify the applicable requirements and test conditions rather than importing a generic limit without its scope.
+
+This module also distinguishes electromagnetic compatibility from dynamic bus stability. They can interact through filters and impedances, but they are not the same assessment. The goal is to recognize the paths and operating conditions that a system-level review must include, even when individual components already have their own compliance evidence.

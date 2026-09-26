@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+Storage supports the equipment it can reach through a usable electrical path. Here the rack has local buffering, the shared bus has converter-connected storage, and the upstream supply serves sustained demand. A coolant distribution unit has a separate branch. These locations create different support boundaries. They do not establish a fixed order in which the resources must operate.
+
+Apply a rise in the computing load. Local buffering can address the rapid mismatch while bus storage and the upstream source adjust. Their contributions can overlap. The normalized graph shows one illustrative sharing pattern: the contributions add to the load demand at the stated boundary. Actual response rates and sharing depend on the converters, control settings, available energy and distribution system.
+
+Power describes the rate of support. Energy describes the amount delivered over time. The highlighted area under a storage power trace accumulates as the event continues. A short high-power burst and a longer event therefore create different requirements. A large energy store can still have a restrictive power limit, and a high-power buffer can still run out of usable energy.
+
+When the extra computing demand ends, the storage must eventually recover its energy. During recharge, the upstream supply serves the continuing load and the charging demand. Compare the demand with available source capacity and the permitted ramp. Uncoordinated recharge can create another disturbance. The animation changes to a separate recovery time window; the spacing does not specify a universal charging duration.
+
+Finally, trace the support boundary to the coolant distribution unit. The rack buffer in this drawing cannot energize that separate upstream branch. Keeping server power available is therefore only part of useful-service continuity. The Deschutes course examines the coolant distribution unit in more detail, and the O C P Ready energy storage course extends storage deployment and acceptance evidence. Match placement, power, energy and controls to the event you need to support.

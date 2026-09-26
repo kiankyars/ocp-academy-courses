@@ -1,0 +1,7 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Welcome to module 10: Integrated LVDC design review. Review a proposal and identify what remains unproven.
+
+A sound proposal explains the interfaces, fault response and operating states, and names the studies and approvals still needed. Course completion does not qualify an engineering design.
+
+We will work through five connected questions, then apply the central ideas in a short knowledge check. The paper links under the teaching slides take you to the relevant pages, so you can examine the underlying discussion while keeping the course's system boundary in view.

@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+The paper organizes control responsibilities from local device behavior to facility and human oversight. At the fastest level, local protection and switching respond to electrical conditions. Equipment controls manage their own converter or load behavior. Bus and site coordination operate across wider boundaries, while higher-level management supports scheduling, supervision, and decisions.
+
+These levels have different time scales. The diagram preserves that ordering without turning an indicative range into a universal response-time requirement. Essential fast fault protection cannot wait for a message to travel through a site network or a supervisory application.
+
+A network outage is therefore a useful review condition. Which functions continue autonomously? Which requests are inhibited? What state does each piece of equipment maintain when a command or measurement becomes stale? The answers should be deliberate, rather than an accidental consequence of communication loss.
+
+Local autonomy does not mean uncoordinated behavior. Protection settings, equipment limits, and supervisory policies still need a coherent design. The point is to place the immediate response where it can occur reliably, while slower layers coordinate capacity, recovery, and operating objectives.
+
+When reading a control architecture, assign each action to a level and identify its dependencies. If a fast safety or protection action requires an uncertain remote round trip, the architecture needs review. If higher-level optimization fails, the system should still have a defined and appropriate local operating response.

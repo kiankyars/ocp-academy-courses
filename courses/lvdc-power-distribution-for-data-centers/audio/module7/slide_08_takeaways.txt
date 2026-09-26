@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Align human procedures with automated states and transitions. Keep essential fast protection local; define communication-loss behavior. Specify permissives, exceptions, ownership and verification evidence.
+
+Operating logic needs explicit states, permissives, failure responses and ownership. Automated commands do not replace independent verification of a safe state.
+
+Pause for a brief application before continuing. Choose one abnormal condition, such as failed precharge or a lost measurement. Is the next permitted action defined, and who owns that decision?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

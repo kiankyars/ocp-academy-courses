@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A conversion shelf can connect a new distribution voltage to an established extra-low-voltage rack ecosystem. That can preserve useful downstream equipment and interfaces. The trade-off is an additional conversion assembly with its own space, thermal, control, and maintenance requirements.
+
+Native L V D C inputs change where those responsibilities sit. Conversion may move into or closer to the consuming equipment. This can simplify some parts of the rack arrangement while making input compatibility, connection behavior, and service practices more important at other boundaries.
+
+Neither approach should be judged by counting one visible box. Compare the complete power chain, including every required converter, protective function, connector, and supporting control. Losses depend on loading and the operating range. Serviceability depends on what can be isolated and replaced while the intended loads remain available.
+
+The equipment ecosystem is also part of the decision. A technically appealing architecture still needs compatible products and a clear interface contract. An existing rack bus may offer practical reuse, while a native input strategy may require more coordinated product development or a different maintenance approach.
+
+Use the comparison to identify questions rather than declare a universal winner. What is being reused? Where does conversion occur? Which equipment owns precharge and protection? What happens during a failed connection or a replacement operation? The answer should describe the system's behavior, not simply name a preferred rack architecture.

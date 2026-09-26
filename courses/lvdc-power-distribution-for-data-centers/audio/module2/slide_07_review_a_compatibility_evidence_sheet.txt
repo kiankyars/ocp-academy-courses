@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A compatibility evidence sheet should make missing information visible. Start with the source and load operating ranges, then add the time-dependent excursions each must deliver or tolerate. Include the response after an excursion, because successful recovery is part of the operating requirement.
+
+Next, identify the electrical reference. Pole-to-pole voltage and conductor-to-earth voltage can be different. A change in polarity, midpoint distribution, or earthing can alter the insulation stress and the suitability of connected devices. Equipment must be reviewed for the actual configuration.
+
+Then check power capability. A product described as usable at a lower voltage does not automatically deliver its full intended power there. At constant power, lower voltage demands more current. Converter limits, conductors, connectors, and protection may constrain the result. A seven-hundred-fifty-volt operating point is therefore not blanket evidence that every eight-hundred-volt product is interchangeable.
+
+Check the system scope too. Two eight-hundred-volt sources placed in series produce sixteen hundred volts across the full pair. That exceeds the fifteen-hundred-volt scope of this paper. Describing the individual sources as low-voltage products does not bring the combined interface back within that boundary.
+
+A useful evidence sheet ends with explicit gaps: a missing duration, an unverified earth-voltage rating, or a power limit that has not been checked. Those gaps direct the next engineering action. A shared nominal label does not close them.

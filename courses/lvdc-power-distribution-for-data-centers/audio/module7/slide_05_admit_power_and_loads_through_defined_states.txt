@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+A healthy bus is only one condition for admitting a rack load. Available capacity, protection readiness, storage status and required cooling also matter. Separate the condition being checked from the automated action and the person or system responsible for it. A useful sequence defines what happens when a condition is false or unavailable, as well as when all conditions are satisfied.
+
+Follow the permitted path. Readiness checks allow controlled precharge. Confirmed charging and the remaining required conditions allow load enable. Normal energized operation is an operating state, not an instruction to progress next into a fault. The exact conditions and thresholds belong to the approved equipment and site sequence. The paper does not supply a complete universal black-start procedure.
+
+Now start a separate admission case. Electrical supply is available, but the required coolant distribution unit has not established the necessary readiness or flow condition. Rack admission remains blocked. The controller must use the defined signal and ownership, rather than infer cooling from bus voltage. This illustrates an electrical permissive; it does not calculate how long a rack can operate without cooling.
+
+After a disturbance, recovery introduces another set of conditions. Re-admit rack groups in stages while allowing for source headroom and storage recharge. Compare that with simultaneous restart and recharge, which can create a larger aggregate demand. The illustrated profiles are qualitative. The actual sequence must meet the equipment and utility requirements; the grid disturbance companion course develops that interface.
+
+A detected fault can divert operation into lockout, with explicit conditions for reset. A maintenance request follows its defined isolation, discharge and verification route. These are separate branches with assigned responsibilities. Controller-reported de-energization does not by itself verify absence of hazardous energy. Ask who owns each permissive, what happens when its signal fails, and what evidence is recorded before a transition is accepted.

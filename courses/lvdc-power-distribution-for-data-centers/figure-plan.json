@@ -1,0 +1,254 @@
+[
+  {
+    "module": 1,
+    "slide": 3,
+    "asset": "scope",
+    "kind": "diagram",
+    "purpose": "Evaluate the whole power chain, from conversion to the rack and its supporting services.",
+    "caption": "Conceptual scope: MV AC conversion, LVDC distribution, rack conversion and supporting services. Individual stages depend on the selected architecture.",
+    "motion_plan": null
+  },
+  {
+    "module": 1,
+    "slide": 4,
+    "asset": "stages",
+    "kind": "diagram",
+    "purpose": "The adoption stages move the DC boundary upstream; they do not remove every AC or DC/DC stage.",
+    "caption": "Three adoption boundaries: racks, an IT module, and broader facility distribution. These are alternatives to evaluate, not a compulsory progression.",
+    "motion_plan": null
+  },
+  {
+    "module": 1,
+    "slide": 5,
+    "asset": "isolation",
+    "kind": "diagram",
+    "purpose": "Locate voltage conversion, regulation and galvanic isolation separately.",
+    "caption": "Isolation location is a design choice. Verify the actual converter topology and the electrical boundary it provides.",
+    "motion_plan": null
+  },
+  {
+    "module": 1,
+    "slide": 6,
+    "asset": "paths",
+    "kind": "motion",
+    "purpose": "Availability needs both adequate capacity and a viable route.",
+    "caption": "Compare distinct source and feeder failures, then an explicitly changed feeder arrangement. Usable paths and adequate capacity are separate conditions; shared dependencies remain.",
+    "motion_plan": "Where redundancy actually works; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 2,
+    "slide": 4,
+    "asset": "bands",
+    "kind": "diagram",
+    "purpose": "Read the band together with its allowed behavior and duration.",
+    "caption": "B1–B7 classify blackout, operating, protective and prohibited regions. This conceptual ladder does not assign universal numerical thresholds or durations.",
+    "motion_plan": null
+  },
+  {
+    "module": 2,
+    "slide": 5,
+    "asset": "envelope",
+    "kind": "motion",
+    "purpose": "Compatibility includes delivered voltage, power and ride-through duration.",
+    "caption": "Source and load terminals are different boundaries. The paper’s p. 76 resistive-drop example is followed by separate qualitative demand and voltage-time comparisons.",
+    "motion_plan": "What voltage reaches the rack?; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 3,
+    "slide": 3,
+    "asset": "conductors",
+    "kind": "diagram",
+    "purpose": "Midpoint M may carry normal load current. Protective earth PE has a different role.",
+    "caption": "Conceptual bipolar load connections. M participates in the intended load circuit when distributed; PE remains a separate protective function.",
+    "motion_plan": null
+  },
+  {
+    "module": 3,
+    "slide": 4,
+    "asset": "midpoint",
+    "kind": "motion",
+    "purpose": "Midpoint current follows the imbalance between pole loads.",
+    "caption": "Normalized conventional currents in a declared bipolar load circuit. Midpoint current follows the signed load difference; PE remains separate from normal load return.",
+    "motion_plan": "Follow the midpoint current; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 3,
+    "slide": 6,
+    "asset": "earth_reference",
+    "kind": "diagram",
+    "purpose": "An isolation barrier, an earth reference and an insulation monitor perform different functions.",
+    "caption": "Separate the isolation boundary from the earth-reference and monitoring functions. The sketch identifies responsibilities without prescribing a connection scheme.",
+    "motion_plan": null
+  },
+  {
+    "module": 4,
+    "slide": 3,
+    "asset": "fault_sources",
+    "kind": "diagram",
+    "purpose": "A DC fault can draw energy from source-side capacitors, converters and connected loads.",
+    "caption": "Three possible contributions to a DC fault. The relative magnitude and timing depend on the actual network, stored energy and converter response.",
+    "motion_plan": null
+  },
+  {
+    "module": 4,
+    "slide": 4,
+    "asset": "selectivity",
+    "kind": "motion",
+    "purpose": "Coordinate selectivity with healthy-load hold-up and voltage tolerance.",
+    "caption": "Illustrative comparison of fault contributions, branch interruption and healthy-load tolerance. Both cases clear the fault; only Case A stays within the assumed tolerance.",
+    "motion_plan": "One fault, two load outcomes; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 4,
+    "slide": 6,
+    "asset": "safe_state",
+    "kind": "diagram",
+    "purpose": "A reported OFF state does not prove that every hazardous energy path has been removed.",
+    "caption": "Commanded state, reported state and verified electrical condition are distinct. Stored energy and alternate sources must be included in the isolation concept.",
+    "motion_plan": null
+  },
+  {
+    "module": 5,
+    "slide": 3,
+    "asset": "utility",
+    "kind": "diagram",
+    "purpose": "Utility-interface performance and internal DC continuity are different requirements.",
+    "caption": "One event can produce different outcomes at the utility connection and inside the DC system. Evaluate each boundary against its own requirements.",
+    "motion_plan": null
+  },
+  {
+    "module": 5,
+    "slide": 5,
+    "asset": "storage",
+    "kind": "motion",
+    "purpose": "Match storage placement, power, energy and recharge to the required support.",
+    "caption": "An illustrative load step connects overlapping support, accumulated energy and recharge demand. Rack buffering does not supply the separately drawn CDU branch.",
+    "motion_plan": "Who supplies the load step?; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 5,
+    "slide": 6,
+    "asset": "distribution",
+    "kind": "diagram",
+    "purpose": "A suitable distribution path needs current, thermal, voltage-drop and DC-duty evidence.",
+    "caption": "The source-to-load path includes cable drop, thermal limits, connector duty and switching behavior. Each interface needs ratings for the actual DC application.",
+    "motion_plan": null
+  },
+  {
+    "module": 6,
+    "slide": 3,
+    "asset": "rack_types",
+    "kind": "diagram",
+    "purpose": "The rack entry choice assigns conversion, distribution and control responsibilities.",
+    "caption": "Three rack interface approaches adapted from the paper’s Figure 9.1. Locate downstream conversion and protection responsibilities in each actual implementation.",
+    "motion_plan": null
+  },
+  {
+    "module": 6,
+    "slide": 6,
+    "asset": "precharge",
+    "kind": "motion",
+    "purpose": "Distinguish initial connection, bulk charging and load enable.",
+    "caption": "Three distinct events: initial connection, controlled bulk charging and load application. Functional redraw based on paper Figures 9.6–9.10; event scales and levels are illustrative.",
+    "motion_plan": "Inside a controlled rack connection; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 6,
+    "slide": 7,
+    "asset": "rack_buffer",
+    "kind": "diagram",
+    "purpose": "Rack buffering handles local excursions; facility backup has a different boundary and energy requirement.",
+    "caption": "Local buffering and facility support have different boundaries. Coordinate response, recharge, monitoring and protection across both.",
+    "motion_plan": null
+  },
+  {
+    "module": 7,
+    "slide": 4,
+    "asset": "control_levels",
+    "kind": "diagram",
+    "purpose": "The fastest protective actions must remain local when supervisory communication is unavailable.",
+    "caption": "Indicative hierarchy from L0 local action to L4 oversight. Response requirements are system-specific; essential fast protection remains autonomous.",
+    "motion_plan": null
+  },
+  {
+    "module": 7,
+    "slide": 5,
+    "asset": "states",
+    "kind": "motion",
+    "purpose": "Every operating transition needs conditions, ownership and evidence.",
+    "caption": "A branching sequence separates permitted admission, blocked cooling readiness, recovery, fault lockout and maintenance verification. Thresholds and timing remain equipment- and site-specific.",
+    "motion_plan": "Permission to energize; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 7,
+    "slide": 6,
+    "asset": "recovery",
+    "kind": "diagram",
+    "purpose": "A reclose decision needs a known fault response and valid recovery conditions.",
+    "caption": "Fault recovery and maintenance verification need explicit ownership and evidence. A controller status is one input to the process, not a substitute for every required check.",
+    "motion_plan": null
+  },
+  {
+    "module": 8,
+    "slide": 4,
+    "asset": "noise_paths",
+    "kind": "motion",
+    "purpose": "Trace the complete high-frequency return path.",
+    "caption": "Complete differential and common mode loops in one conceptual layout. Filtering changes high-frequency current routes; earth is not an ideal sink or a universal zero-impedance reference.",
+    "motion_plan": "Noise always has a return path; five narration-timed scenes, one finite pass."
+  },
+  {
+    "module": 8,
+    "slide": 5,
+    "asset": "filter_earth",
+    "kind": "diagram",
+    "purpose": "A filter’s earth-related capacitance also affects monitoring and fault behavior.",
+    "caption": "Filters, cables and earth-reference functions share current paths. Review noise mitigation together with insulation monitoring and the selected earthing arrangement.",
+    "motion_plan": null
+  },
+  {
+    "module": 8,
+    "slide": 6,
+    "asset": "stability",
+    "kind": "diagram",
+    "purpose": "Individually functional converters can interact when connected to a shared bus.",
+    "caption": "A regulated load may demand more current as voltage falls. Stability depends on the combined source, load, cable, filter and control behavior.",
+    "motion_plan": null
+  },
+  {
+    "module": 9,
+    "slide": 3,
+    "asset": "requirements",
+    "kind": "diagram",
+    "purpose": "System, product, installation and utility requirements govern different boundaries.",
+    "caption": "Different boundaries require different evidence and reviewers. A result at one boundary does not automatically settle the others.",
+    "motion_plan": null
+  },
+  {
+    "module": 9,
+    "slide": 7,
+    "asset": "evidence_matrix",
+    "kind": "diagram",
+    "purpose": "A review conclusion must stay within the scope of its evidence.",
+    "caption": "A fictional proposal: compare each claim with its required evidence and the limits of what that evidence establishes.",
+    "motion_plan": null
+  },
+  {
+    "module": 10,
+    "slide": 3,
+    "asset": "scenario",
+    "kind": "diagram",
+    "purpose": "Fictional scenario: two sources share a bus; each illustrated rack branch has one feeder.",
+    "caption": "Fictional review case, not an engineered design. The healthy-branch continuity claim is conditional; the affected rack has no demonstrated alternate feeder.",
+    "motion_plan": null
+  },
+  {
+    "module": 10,
+    "slide": 5,
+    "asset": "scenario_fault",
+    "kind": "motion",
+    "purpose": "Review selectivity, hold-up, cooling and recovery against the evidence.",
+    "caption": "Apply the declared single-feeder scenario across protection, rack tolerance, storage, cooling and recovery. Distinguish topology, assumptions and missing service evidence.",
+    "motion_plan": "Follow the fault through the whole system; five narration-timed scenes, one finite pass."
+  }
+]
