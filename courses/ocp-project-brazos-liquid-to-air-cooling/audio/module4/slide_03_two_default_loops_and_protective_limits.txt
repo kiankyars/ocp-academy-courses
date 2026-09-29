@@ -1,0 +1,11 @@
+# pronunciation:
+
+The default pump loop regulates a pressure differential between liquid supply and return. The controller adjusts pump speed to maintain that setpoint. This supports the hydraulic task, while other selectable pump modes provide different control choices for a qualified application.
+
+The default fan loop regulates approach temperature: cold liquid supply minus cold inlet air. The controller changes fan speed to maintain that difference. Because inlet air can vary, a fixed approach does not guarantee a fixed absolute coolant temperature.
+
+Two additional functions limit hot-side temperatures. The specified default maximum for returning liquid is fifty-five degrees Celsius. The default maximum for exhaust air is fifty degrees Celsius. Both are configurable and enabled by default. When their specified threshold is reached, these functions take precedence over the other automatic control modes.
+
+Redundant sensors support the controls, but disagreement also needs defined handling. The specification directs the pump calculation toward the lower reported pressure differential when the paired readings exceed their expected agreement. For fans, the corresponding rule uses the greater reported approach temperature. These choices should be demonstrated in validation, not assumed from the presence of duplicate sensors.
+
+The practical distinction is between the quantity being regulated, an overriding temperature constraint, and a fault response. They answer different questions. A control review should identify the sensor inputs, the active mode, its setpoint, and the expected behavior when readings or equipment become abnormal.

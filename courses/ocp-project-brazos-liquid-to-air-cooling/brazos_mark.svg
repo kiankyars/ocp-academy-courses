@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Brazos liquid-to-air cooling</title>
+  <desc id="desc">An indigo liquid droplet beside a heat-exchanger core, with three green air streams carrying heat outward.</desc>
+  <!-- The three silhouettes stay distinct: liquid, exchanger, and moving air. -->
+  <path d="M78 29C65 58 22 91 22 135a56 56 0 0 0 97 38c-10-12-16-26-16-42 0-19 7-36 18-49-18-21-34-39-43-53Z"
+        fill="#343895" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M46 129c-3 20 8 35 25 39" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <!-- Rounded fins echo a compact liquid-to-air exchanger without miniature detail. -->
+  <g fill="#343895" stroke="#fff" stroke-width="4">
+    <rect x="115" y="80" width="17" height="104" rx="8.5"/>
+    <rect x="138" y="92" width="17" height="80" rx="8.5"/>
+  </g>
+  <!-- A rising stream, a straight stream, and a falling stream form the air-side signature. -->
+  <g fill="none" stroke="#8DC63F" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M169 104h22c18 0 22-14 22-25 0-12-8-19-18-19"/>
+    <path d="M170 132h64"/>
+    <path d="M169 160h22c18 0 22 14 22 25 0 12-8 19-18 19"/>
+  </g>
+</svg>

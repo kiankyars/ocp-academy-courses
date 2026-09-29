@@ -1,0 +1,11 @@
+# pronunciation: IT -> I T
+
+Cooling equipment consumes electricity while it removes heat from the I T load. The Brazos electrical requirements distinguish two values for one chassis. The electrical design must support five thousand watts maximum, while total consumption is limited to approximately four thousand watts per chassis. A three-chassis cooling rack is therefore approximately twelve kilowatts at that stated consumption limit.
+
+Those are electrical quantities. The sixty-kilowatt nominal rating describes thermal load from the connected I T equipment. It is not the cooling rack’s electrical input, and the five-kilowatt design requirement should not replace the stated consumption limit in a routine operating claim.
+
+For an initial illustrative budget, sixty kilowatts transferred from the I T liquid loop plus twelve kilowatts of cooling electrical input gives approximately seventy-two kilowatts. This is a high-budget case using the stated limit, not a measured typical operating point. Other I T heat and site loads must be added where applicable.
+
+The detailed busbar requirements list a nominal fifty-four point five volts, a minimum of forty volts, and a maximum of fifty-nine point five volts, with specified transient conditions. The overview rounds the input range to forty through sixty volts. Use the detailed requirements when reviewing the electrical interface.
+
+A sound budget identifies the load, the cooling operating point, electrical headroom, and the destination of the heat. It does not count the thermal rating as free capacity independent of the equipment required to deliver it.

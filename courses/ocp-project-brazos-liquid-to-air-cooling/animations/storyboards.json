@@ -1,0 +1,208 @@
+[
+  {
+    "asset": "heat_path",
+    "module": 1,
+    "slide": 4,
+    "chapters": [
+      {
+        "label": "IT adds heat",
+        "narration": "Begin at the equipment. Heat enters the coolant through the I T cooling interfaces. The liquid leaves the I T equipment warmer and returns toward the Brazos rack. This is a single-phase loop: the teaching model keeps the fluid liquid while its temperature changes.",
+        "start": 0.0,
+        "end": 15.101451247165533,
+        "speech_duration": 14.721451247165533
+      },
+      {
+        "label": "Radiator transfers heat",
+        "narration": "Inside Brazos, the returning coolant passes through the radiator. The liquid and air remain separate streams. Heat transfers across the heat-exchanger surfaces. The radiator changes the coolant temperature; it does not send that coolant into a facility water loop.",
+        "start": 15.101451247165533,
+        "end": 31.131700680272107,
+        "speech_duration": 15.650249433106575
+      },
+      {
+        "label": "Liquid returns to IT",
+        "narration": "The pumps circulate the cooled liquid back through the supply manifold and onward to the I T equipment. The closed path connects supply, I T load, return, and Brazos again. Its hydraulic resistance matters because circulation must provide the required flow through the actual installation.",
+        "start": 31.131700680272107,
+        "end": 48.09074829931973,
+        "speech_duration": 16.579047619047618
+      },
+      {
+        "label": "Air carries heat away",
+        "narration": "On the air side, the rear fans draw inlet air through the chassis and discharge warmer air into the hot aisle. The room’s air-handling and heat-removal systems receive that heat. They remain part of the end-to-end cooling system, even though the I T uses liquid.",
+        "start": 48.09074829931973,
+        "end": 63.145759637188206,
+        "speech_duration": 14.675011337868481
+      },
+      {
+        "label": "Verify both paths",
+        "narration": "Keep both paths in your review. One carries coolant through the equipment and Brazos. The other carries air through the radiator and toward the facility cooling system. Brazos connects their thermal behavior. Reliable operation requires suitable conditions on both sides of that connection.",
+        "start": 63.145759637188206,
+        "end": 79.77106575963718,
+        "speech_duration": 15.975328798185942
+      }
+    ],
+    "duration": 79.77106575963718,
+    "source_pages": [
+      12,
+      13,
+      18
+    ],
+    "narration_wav": "audio/module1/slide_04_from_it_heat_to_the_hot_aisle.wav",
+    "narration_sha256": "61155812d0ae3e08b1400ddb86f8f2535b41747685dec84a13a0e29141fd532b",
+    "timing_status": "Measured final narration; one finite pass",
+    "visual_motion": "Continuous directional coolant markers and air streaks; rotating chassis-fan symbol after its narration cue. Speeds and spacing are illustrative. Final one second holds still.",
+    "revision_note": "2026-09-29: replaced five long static states with visible motion within the narration-aligned scenes after reviewer feedback."
+  },
+  {
+    "asset": "fan_tradeoff",
+    "module": 2,
+    "slide": 4,
+    "chapters": [
+      {
+        "label": "Compare chassis data",
+        "narration": "Fan speed changes both airflow and electrical demand. The chassis data provides measured comparison points, which we will keep separate from the rack-level thermal table. Here, airflow is reported as standard cubic feet per minute, and power refers to the chassis fans.",
+        "start": 0.0,
+        "end": 15.426530612244898,
+        "speech_duration": 15.046530612244897
+      },
+      {
+        "label": "54% and 65% speed",
+        "narration": "At fifty-four percent fan speed, the table lists twelve hundred twenty-two standard cubic feet per minute and three hundred six watts of fan power. At sixty-five percent, the airflow rises to fifteen hundred fifty-five, while power rises to five hundred sixty-six watts. These are two operating points, not a promise about every installed condition.",
+        "start": 15.426530612244898,
+        "end": 34.61469387755102,
+        "speech_duration": 18.808163265306124
+      },
+      {
+        "label": "76% and 88% speed",
+        "narration": "At seventy-six percent speed, airflow is eighteen hundred seventy-seven and fan power is eight hundred eighty-four watts. At eighty-eight percent, those figures become twenty-two hundred thirteen and thirteen hundred twenty-seven watts. The gain in airflow comes with a growing electrical cost.",
+        "start": 34.61469387755102,
+        "end": 52.03814058956916,
+        "speech_duration": 17.04344671201814
+      },
+      {
+        "label": "Full-speed comparison",
+        "narration": "At full speed, the listed airflow reaches twenty-six hundred twenty-two standard cubic feet per minute, with nineteen hundred eighty-two watts of fan power. Compared with the fifty-four-percent point, that is a little over twice the airflow and roughly six and a half times the fan power. This comparison uses the table entries; it is not a fitted fan law.",
+        "start": 52.03814058956916,
+        "end": 71.87646258503402,
+        "speech_duration": 19.458321995464853
+      },
+      {
+        "label": "Choose against the requirement",
+        "narration": "Select a working point against the actual thermal requirement and air-path resistance. Maximum speed is available for particular conditions, including specified failure responses, but it carries a power and acoustic consequence. Keep chassis fan power distinct from pump power and total cooling-rack power when assembling the site budget.",
+        "start": 71.87646258503402,
+        "end": 91.10240362811791,
+        "speech_duration": 18.575963718820862
+      }
+    ],
+    "duration": 91.10240362811791,
+    "source_pages": [
+      19
+    ],
+    "narration_wav": "audio/module2/slide_04_airflow_has_a_power_cost.wav",
+    "narration_sha256": "d15456d93ecb9224cd055bccffffe2446be0f4086003b62cfa495fd564304a39",
+    "timing_status": "Measured final narration; one finite pass"
+  },
+  {
+    "asset": "service_interlock",
+    "module": 3,
+    "slide": 6,
+    "chapters": [
+      {
+        "label": "Three chassis on slides",
+        "narration": "Consider the physical service arrangement with three chassis mounted on slides. Each unit is heavy, and extending a chassis moves its load forward. The rack must remain stable throughout the approved service activity. The diagram explains the interlock principle; it is not a replacement sequence.",
+        "start": 0.0,
+        "end": 17.84140589569161,
+        "speech_duration": 17.46140589569161
+      },
+      {
+        "label": "One chassis extends",
+        "narration": "When one chassis extends, the interlock must prevent another chassis from extending at the same time. This mechanism is separate from the securing features used to hold equipment in place. Simply releasing a mounting restraint must not allow an operator to defeat the one-chassis condition accidentally.",
+        "start": 17.84140589569161,
+        "end": 34.707573696145126,
+        "speech_duration": 16.486167800453515
+      },
+      {
+        "label": "Second extension is blocked",
+        "narration": "A second extension attempt remains blocked while the first unit is out. This protects against the tipping condition the interlock is designed to prevent. The specification also requires warnings and validation of the mechanism. A functioning drawing is not evidence that a particular rack has passed those tests.",
+        "start": 34.707573696145126,
+        "end": 51.62018140589569,
+        "speech_duration": 16.532607709750568
+      },
+      {
+        "label": "Leak coverage is independent",
+        "narration": "Leak coverage is an independent requirement. Each chassis needs its own detection, including an internal cable and an external connection for the specified coverage. Minor internal leaks must be contained and routed toward controlled front drainage. The specification does not permit one chassis’s leak detection to be daisy-chained through another.",
+        "start": 51.62018140589569,
+        "end": 70.48326530612245,
+        "speech_duration": 18.483083900226756
+      },
+      {
+        "label": "Check all three conditions",
+        "narration": "Bring these checks together without confusing their purposes. The interlock addresses physical extension and rack stability. Detection and drainage address escaped liquid. Cooling continuity still depends on the remaining equipment and the approved service plan. Satisfying one of these conditions does not prove the others.",
+        "start": 70.48326530612245,
+        "end": 88.45532879818595,
+        "speech_duration": 17.322086167800453
+      }
+    ],
+    "duration": 88.45532879818595,
+    "source_pages": [
+      39,
+      44,
+      63,
+      64
+    ],
+    "narration_wav": "audio/module3/slide_06_service_one_chassis_while_protecting_the_rack.wav",
+    "narration_sha256": "9609e2f6ff0ff1265a9cd166108fc40803fca2e9dd495a1a2539c16b73be3149",
+    "timing_status": "Measured final narration; one finite pass"
+  },
+  {
+    "asset": "control_states",
+    "module": 4,
+    "slide": 4,
+    "chapters": [
+      {
+        "label": "Verify liquid before enable",
+        "narration": "Start with the liquid-presence condition. Pumps must not turn on simply because the power board is inserted into the live rack busbar. The controller must verify liquid using the specified suction-pressure or liquid-level evidence before enabling the pump drives. This prevents dry running.",
+        "start": 0.0,
+        "end": 18.49156462585034,
+        "speech_duration": 18.11156462585034
+      },
+      {
+        "label": "Separate startup and reboot",
+        "narration": "Initial startup and reboot are different cases. The configurable initial defaults are manual mode with pump and fan speeds at twenty-five percent. A reboot after a power interruption or software update must retain the controller’s preceding state. Do not treat the initial default as a command to reset every restart to manual operation.",
+        "start": 18.49156462585034,
+        "end": 38.190566893424034,
+        "speech_duration": 19.319002267573698
+      },
+      {
+        "label": "Enter supervisory bounds",
+        "narration": "During normal automatic operation, the local controller regulates the selected pump and fan variables. A tier-two supervisory system may impose minimum and maximum speed bounds. To enter that mode, it writes a positive timeout value. The local controller decrements that value once each second.",
+        "start": 38.190566893424034,
+        "end": 55.47469387755102,
+        "speech_duration": 16.904126984126986
+      },
+      {
+        "label": "Timeout returns to local control",
+        "narration": "While the timeout remains positive, the controller applies the supervisory bounds and slews toward them at a safe rate where necessary. When the timeout reaches zero, it exits tier-two operation with a smooth transfer back to local control. The timeout is a control-handover mechanism, not proof of a deployed facility optimization service.",
+        "start": 55.47469387755102,
+        "end": 74.10557823129251,
+        "speech_duration": 18.250884353741498
+      },
+      {
+        "label": "Validate separate fault branches",
+        "narration": "Failures are separate branches. The specification defines default full-speed responses for particular sensor, communication, pump, or fan failures, and also describes a manual mode that overrides failsafe conditions. Validate those state-specific behaviors, including their interaction with the installed controls. Avoid assuming every abnormal condition has the same response or inventing an undocumented priority rule.",
+        "start": 74.10557823129251,
+        "end": 98.90430839002268,
+        "speech_duration": 24.14875283446712
+      }
+    ],
+    "duration": 98.90430839002268,
+    "source_pages": [
+      68,
+      70,
+      71,
+      72
+    ],
+    "narration_wav": "audio/module4/slide_04_from_startup_to_supervisory_handover.wav",
+    "narration_sha256": "cfb497591618d8346026b7b26299b2a3ed8e2fd82cfe3b098d573a41d85e3aec",
+    "timing_status": "Measured final narration; one finite pass"
+  }
+]

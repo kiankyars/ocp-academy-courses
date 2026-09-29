@@ -1,0 +1,11 @@
+# pronunciation: IT -> I T
+
+Begin at the equipment. Heat enters the coolant through the I T cooling interfaces. The liquid leaves the I T equipment warmer and returns toward the Brazos rack. This is a single-phase loop: the teaching model keeps the fluid liquid while its temperature changes.
+
+Inside Brazos, the returning coolant passes through the radiator. The liquid and air remain separate streams. Heat transfers across the heat-exchanger surfaces. The radiator changes the coolant temperature; it does not send that coolant into a facility water loop.
+
+The pumps circulate the cooled liquid back through the supply manifold and onward to the I T equipment. The closed path connects supply, I T load, return, and Brazos again. Its hydraulic resistance matters because circulation must provide the required flow through the actual installation.
+
+On the air side, the rear fans draw inlet air through the chassis and discharge warmer air into the hot aisle. The room’s air-handling and heat-removal systems receive that heat. They remain part of the end-to-end cooling system, even though the I T uses liquid.
+
+Keep both paths in your review. One carries coolant through the equipment and Brazos. The other carries air through the radiator and toward the facility cooling system. Brazos connects their thermal behavior. Reliable operation requires suitable conditions on both sides of that connection.

@@ -56,6 +56,7 @@ courses/
     ocp-volunteer-leadership-guide/
     ocp-ready-data-center-recognition-program/
     ocp-contribution-process/
+  ocp-project-brazos-liquid-to-air-cooling/
   ocp-ready-requirements-for-energy-storage-systems/
   ocp-solid-state-transformers/
   open-data-center-for-ai/
@@ -140,6 +141,7 @@ Use AcademyWizard to build a Scrolling course from the course source in this rep
 | `ocp-orientation/ocp-volunteer-leadership-guide` | OCP's Volunteer Leadership Guide |
 | `ocp-orientation/ocp-ready-data-center-recognition-program` | OCP Ready™ Data Center Recognition Program |
 | `ocp-orientation/ocp-contribution-process` | OCP Contribution Process |
+| `ocp-project-brazos-liquid-to-air-cooling` | OCP Project Brazos: Liquid Cooling in Air-Cooled Data Centers |
 | `ocp-ready-requirements-for-energy-storage-systems` | OCP Ready™ Requirements for Energy Storage Systems |
 | `ocp-solid-state-transformers` | OCP Solid State Transformers: From Medium Voltage to 800 VDC |
 | `open-data-center-for-ai` | Open Data Center for AI |

@@ -1,0 +1,11 @@
+# pronunciation:
+
+Start with the liquid-presence condition. Pumps must not turn on simply because the power board is inserted into the live rack busbar. The controller must verify liquid using the specified suction-pressure or liquid-level evidence before enabling the pump drives. This prevents dry running.
+
+Initial startup and reboot are different cases. The configurable initial defaults are manual mode with pump and fan speeds at twenty-five percent. A reboot after a power interruption or software update must retain the controller’s preceding state. Do not treat the initial default as a command to reset every restart to manual operation.
+
+During normal automatic operation, the local controller regulates the selected pump and fan variables. A tier-two supervisory system may impose minimum and maximum speed bounds. To enter that mode, it writes a positive timeout value. The local controller decrements that value once each second.
+
+While the timeout remains positive, the controller applies the supervisory bounds and slews toward them at a safe rate where necessary. When the timeout reaches zero, it exits tier-two operation with a smooth transfer back to local control. The timeout is a control-handover mechanism, not proof of a deployed facility optimization service.
+
+Failures are separate branches. The specification defines default full-speed responses for particular sensor, communication, pump, or fan failures, and also describes a manual mode that overrides failsafe conditions. Validate those state-specific behaviors, including their interaction with the installed controls. Avoid assuming every abnormal condition has the same response or inventing an undocumented priority rule.

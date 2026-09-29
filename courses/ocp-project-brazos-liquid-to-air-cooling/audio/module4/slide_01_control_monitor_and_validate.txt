@@ -1,0 +1,3 @@
+# pronunciation:
+
+The final module connects control behavior to operating evidence. We’ll examine the default loops, supervisory handover, monitoring interfaces, and the records needed to support deployment.

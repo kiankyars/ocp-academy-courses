@@ -1,0 +1,11 @@
+# pronunciation:
+
+Consider the physical service arrangement with three chassis mounted on slides. Each unit is heavy, and extending a chassis moves its load forward. The rack must remain stable throughout the approved service activity. The diagram explains the interlock principle; it is not a replacement sequence.
+
+When one chassis extends, the interlock must prevent another chassis from extending at the same time. This mechanism is separate from the securing features used to hold equipment in place. Simply releasing a mounting restraint must not allow an operator to defeat the one-chassis condition accidentally.
+
+A second extension attempt remains blocked while the first unit is out. This protects against the tipping condition the interlock is designed to prevent. The specification also requires warnings and validation of the mechanism. A functioning drawing is not evidence that a particular rack has passed those tests.
+
+Leak coverage is an independent requirement. Each chassis needs its own detection, including an internal cable and an external connection for the specified coverage. Minor internal leaks must be contained and routed toward controlled front drainage. The specification does not permit one chassis’s leak detection to be daisy-chained through another.
+
+Bring these checks together without confusing their purposes. The interlock addresses physical extension and rack stability. Detection and drainage address escaped liquid. Cooling continuity still depends on the remaining equipment and the approved service plan. Satisfying one of these conditions does not prove the others.

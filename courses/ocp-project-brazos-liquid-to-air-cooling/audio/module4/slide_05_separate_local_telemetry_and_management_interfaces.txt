@@ -1,0 +1,11 @@
+# pronunciation: HMI -> H M I; TCP -> T C P; DHCP -> D H C P; HTTP -> H T T P; USB -> U S B
+
+The control system exposes different interfaces for different purposes. The front-panel human-machine interface, or H M I, supports local interaction. The network-facing controller supports remote visibility and control, with requirements for concurrent Internet Protocol versions four and six.
+
+The specification identifies Modbus over T C P for mapped telemetry and register access. It also requires a Redfish management interface for configuration, asset information, and real-time sensor metrics. Do not collapse those into one protocol or assume their data models and permissions are identical.
+
+The network requirements include a front Ethernet connection and a specified vendor-class identifier in D H C P requests. A service U S B port must be disable-capable. These details belong in the integration and configuration evidence for the actual controller.
+
+Firmware updating is another function. The specification calls for two image partitions and checks before accepting an update. Its detailed update interface uses a separate H T T P service and explicitly describes unauthenticated requests. A checksum detects specified corruption; it does not establish access control or image authenticity.
+
+For this course, focus on the review questions: which interface owns the function, what data is available, how is it configured, and what has been validated for the deployment? Verify implementation-specific endpoints and network controls against the approved integration plan before any operational use.

@@ -1,0 +1,3 @@
+# pronunciation:
+
+Check the complete installed envelope and the access needed for maintenance. Verify the actual coolant, materials, and liquid connections. A component’s hot-swap capability does not establish whole-rack redundancy. The interlock, leak coverage, replacement compatibility, and remaining cooling capacity each need their own evidence. Use the supplier’s approved procedures to turn those design requirements into a service plan.

@@ -1,0 +1,3 @@
+# pronunciation:
+
+You’ll explain what the default pump and fan loops regulate and how startup differs from a reboot. You’ll distinguish local control, telemetry, and management interfaces. Then you’ll assess a candidate deployment by identifying the performance, service, and validation evidence still needed before acceptance.

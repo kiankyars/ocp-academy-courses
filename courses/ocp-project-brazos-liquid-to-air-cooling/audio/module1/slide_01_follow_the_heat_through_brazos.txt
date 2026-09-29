@@ -1,0 +1,3 @@
+# pronunciation:
+
+Welcome to Project Brazos. We’ll follow heat from liquid-cooled equipment to the data-center air, then identify the facility capabilities that make this architecture useful.

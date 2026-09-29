@@ -1,0 +1,9 @@
+# pronunciation: IT -> I T
+
+The reference sidecar contains three Brazos cooling chassis and integrated rack manifolds. Each chassis occupies eleven Open Units of rack height. Open Units describe this rack interface; they should not be substituted with conventional nineteen-inch rack-unit dimensions.
+
+The supply manifold combines cooled liquid from the chassis and connects to the neighboring I T rack. The return manifold carries warm liquid back toward the cooling chassis. This makes the full rack assembly a useful boundary for flow and thermal-performance requirements.
+
+The specification describes sixty kilowatts of nominal thermal load across the three units. Its overview illustration labels twenty kilowatts per chassis. Read those labels as the nominal reference arrangement, with the surrounding performance conditions still relevant. They are not proof that two remaining units can always support the original load after a third unit is removed.
+
+This distinction prevents several common errors. A chassis dimension is not the full rack footprint. A fan-power value for one chassis is not total rack power. A rack curve with all installed pumps operating is not a failed-unit curve. When reviewing any claim, first identify whether it describes a component, one chassis, the Brazos rack, or the combined cooling installation.
