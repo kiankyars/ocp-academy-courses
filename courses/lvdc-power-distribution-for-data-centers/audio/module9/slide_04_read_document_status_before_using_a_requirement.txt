@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Document status changes how a statement should be used. A published standard has an issued edition and a defined scope. A draft or project proposal is still developing. An outline of investigation can provide an evaluation framework for a specific purpose. A certification requirement decision operates within a particular certification context.
+
+These categories are not interchangeable labels for the same authority. A proposed requirement can be important for planning while remaining different from the basis of a current certificate or an adopted installation rule. The correct language preserves that distinction.
+
+The paper reflects a changing standards landscape. Before relying on a status statement, check the issuing organization's current publication or certification information. Record the date of that check, because a draft discussed in one source may have become a published document later.
+
+For this course's preparation, the official I E C catalog identifies I E C six zero nine four seven dash ten, twenty twenty-six, as published. The U L material describes four eight nine I as an outline of investigation. The voltage-standard amendment discussion should still be treated according to its verified status rather than promoted to a settled catalog requirement by inference.
+
+The practical habit is to attach three facts to a cited requirement: the issuing body and document, its current status and edition, and the scope that makes it relevant. That is more durable than memorizing a list of numbers without knowing what they authorize.

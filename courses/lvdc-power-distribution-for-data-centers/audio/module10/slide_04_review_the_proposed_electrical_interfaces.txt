@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Review the electrical interfaces before tracing the disturbance. Start with the source-to-load voltage contract. The fictional proposal needs continuous ranges, transient magnitude and duration, power capability, and the effects of the distribution path. Matching nominal labels do not close that question.
+
+Next, confirm the polarity and earthing arrangement. Identify the intended normal-current conductors, the protective path, and the voltage stresses relative to earth. Determine how insulation monitoring and fault response work in that configuration. A generic product rating should not be assumed to cover every combination in the paper's review set.
+
+Then inspect the rack boundary. Is the input feeding a conversion shelf, a junction arrangement, or a smart distribution unit? Where does downstream conversion occur? Who provides precharge, interruption, isolation, and reporting? Local buffering adds another energy source and another set of operating limits.
+
+Write each unanswered item as a review action. For example, request an agreed source-load envelope with the required test evidence, rather than write only voltage compatibility missing. A precise action identifies the owner, the acceptance question, and the information needed to resolve it.
+
+Keep the proposal's status visible. This scenario can teach the shape of a complete interface contract without inventing a settled numerical envelope. The reviewer should be able to tell what the architecture intends and what evidence is still required before that intent becomes a demonstrated operating capability.

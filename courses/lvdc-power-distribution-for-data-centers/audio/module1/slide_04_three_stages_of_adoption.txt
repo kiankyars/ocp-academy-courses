@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C; IT = I T. Technical numbers and abbreviations are written for speech in the body.
+
+The paper describes three stages of adoption. Think of them as different boundaries for a design decision, rather than a maturity score that every facility must climb.
+
+In the first stage, D C is supplied to racks while much of the surrounding facility architecture remains familiar. This can concentrate change around a rack or a group of racks. The interface still needs explicit ownership: which equipment regulates voltage, which device clears a fault, and where conversion to the equipment's working voltage takes place?
+
+The second stage broadens the boundary to a full information-technology module. Here, that means the main components in the data center's white space, including coolant distribution units, I T networking equipment, and I T server racks. Shared distribution, storage, and these supporting loads can now be considered together. A change in one part of the module can affect the voltage or availability experienced by another part, so coordination becomes more important.
+
+The third stage moves facility distribution toward D C supplied from medium-voltage conversion. Upstream utility supply may remain A C, and downstream equipment may still need D C to D C conversion. Calling this an all-D C path from utility to chip would hide those interfaces.
+
+Compare the stages against the same service requirements. Identify what moves, what stays, and which responsibilities cross the new boundary. A narrower change can be appropriate when it meets the need with manageable interfaces. A broader change can create opportunities only if its additional dependencies are understood.

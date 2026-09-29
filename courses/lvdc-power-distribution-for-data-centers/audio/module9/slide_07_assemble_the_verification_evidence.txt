@@ -1,0 +1,13 @@
+# pronunciation: OCP = O C P.
+
+A useful evidence review starts with a claim and asks what would demonstrate it. The matrix follows four claims in a fictional proposal. Each requires evidence at a different boundary.
+
+For the protective device, review the applicable product scope, ratings and demonstrated functions. A suitable product does not by itself establish coordination or service continuity in the assembled system.
+
+For healthy-rack survival during a branch fault, compare representative system behavior with the load's voltage and time tolerance. Testing a single operating configuration does not establish every source combination or load condition.
+
+For controlled restart, test the sequence, including cooling and storage conditions and the responses to missing or failed signals. Retain acceptance records. Those tests still need to represent the installed configuration, wiring and field conditions.
+
+For local deployment, identify the applicable installation and utility requirements and the evidence those parties need. A product report or a pilot elsewhere does not automatically establish acceptance at this site.
+
+Modeling, hardware-in-the-loop work, laboratory tests, factory acceptance and site acceptance answer different questions. For each claim, name the method, acceptance criterion, owner and record. Then state the limits of the evidence and the remaining gap. The O C P Ready energy storage course develops related deployment and acceptance questions. The review is complete when its conclusion matches what the evidence actually establishes.

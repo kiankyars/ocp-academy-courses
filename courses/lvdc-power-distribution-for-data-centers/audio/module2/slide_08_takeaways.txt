@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Nominal, rated and operating voltages mean different things. Compatibility needs voltage, duration, power and earth-reference evidence. Keep proposals and unresolved transient requirements visibly separate.
+
+A nominal label cannot establish compatibility. Source behavior and load tolerance must overlap under normal operation, disturbances and recovery.
+
+Pause for a brief application before continuing. Choose one source and one load in a proposed interface. What voltage, time, power, or earth-reference information would you request before accepting the connection?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

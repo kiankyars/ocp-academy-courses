@@ -1,0 +1,7 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Welcome to module 9: Codes standards and verification. Build an evidence path for the actual installation.
+
+LVDC uses many existing requirements alongside developing guidance. A proposal or component certificate cannot substitute for the full installation evidence.
+
+We will work through five connected questions, then apply the central ideas in a short knowledge check. The paper links under the teaching slides take you to the relevant pages, so you can examine the underlying discussion while keeping the course's system boundary in view.

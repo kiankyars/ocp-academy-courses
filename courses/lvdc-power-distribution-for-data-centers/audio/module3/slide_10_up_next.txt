@@ -1,0 +1,5 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+You have completed module 3: Polarity earthing and configuration choices. Polarity, midpoint distribution, earthing and voltage form a combined choice. Device compatibility and protection must be checked for that specific combination.
+
+The next module, Fault behavior protection and personnel safety, builds on this boundary by asking a different set of connected questions. Continue through the course modules using the learning platform syllabus. You can also return to this module whenever you need to revisit the paper links, figures, or knowledge-check feedback.

@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A sequence is testable when its states and transitions have clear acceptance criteria. Start by defining what each state means physically, not just what name appears on a screen. Identify the signals that permit a transition, the equipment that acts, and the conditions that must stop or reverse the intended action.
+
+Then challenge the exceptions. What happens when a sensor is unavailable, a message is stale, precharge does not complete, or cooling readiness disappears? What happens after a loss of control power? A normal-path demonstration alone does not establish that the operating design is complete.
+
+Different verification methods answer different questions. Hardware in the loop can exercise controllers against a simulated electrical system. Factory acceptance testing can check the supplied equipment and its agreed functions. Site acceptance testing checks the installed arrangement and interfaces. None should be treated as an automatic substitute for the others.
+
+Time-aligned event records help explain what happened. The record should support the required resolution and show the relevant commands, conditions, actions, and results. Access control and change management also matter, because an unauthorized or undocumented setting change can invalidate a previously demonstrated sequence.
+
+Build the test plan around unresolved claims. If the claim is safe rejection of an invalid connection, test that condition. If it is coordinated recovery, include capacity and cooling limits. The evidence should demonstrate the actual sequence and its exceptions, rather than merely prove that equipment can communicate.

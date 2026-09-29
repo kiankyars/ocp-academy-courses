@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Conversion and isolation answer different questions. Conversion changes the electrical form or voltage. Regulation controls an output within a specified range. Galvanic isolation separates conductive electrical circuits. One assembly may perform all three functions, but they should remain separate entries in the architecture review.
+
+The paper's architecture options place these functions at different points in the chain. A low-frequency transformer can provide isolation before conversion. A converter with a high-frequency isolated stage places the isolation function within the conversion assembly. Downstream D C to D C conversion may provide another isolation boundary, depending on the equipment design.
+
+Moving isolation changes more than the block diagram. It can affect earth referencing, common-mode paths, insulation requirements, and the faults that downstream protection must handle. Do not infer isolation from the words converter or solid state. Confirm the actual topology and the evaluated equipment function.
+
+Use the diagram as a review method: mark the conversion blocks first, draw each proven isolation boundary, and identify which circuits sit on either side. Then connect those decisions to the intended polarity and earthing arrangement. A missing boundary is a question to resolve, not a detail to fill in by assumption.
+
+The companion Academy course on solid state transformers goes further into conversion stages and the O C P product envelope. Here, the goal is to identify what that product must do within the larger system, including its response to abnormal conditions.

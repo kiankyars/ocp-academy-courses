@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Electrical safety is not one number. Shock concerns current through a person. Series arcing can occur at a damaged or separating connection. Arc-flash incident energy describes a thermal exposure under stated assumptions, while arc blast includes pressure and mechanical effects. These are related hazards, but they are not interchangeable measures.
+
+Faster fault clearing can reduce the duration of an event. That does not justify a universal claim that D C is safe, that a particular technology eliminates arc risk, or that protective equipment is unnecessary. The outcome depends on the available energy, geometry, working distance, enclosure, and the behavior of the protective system.
+
+The paper discusses calculation approaches, including the maximum power method. A method should be read together with its applicability and assumptions. The worked values in one example are internally inconsistent, so this course does not reproduce a numerical incident-energy result from that example.
+
+Instead, use the example to ask what a defensible study requires. Which fault or arc is being modeled? What source and load-side contributions are included? How is clearing time established? What physical arrangement and exposure distance are assumed? Which method applies to that installation?
+
+The useful conclusion is that safety decisions require system-specific evidence. A generic fast-clearing example can illustrate a mechanism, but it cannot qualify the actual equipment arrangement or replace the assessment used for an installation's operating practices.

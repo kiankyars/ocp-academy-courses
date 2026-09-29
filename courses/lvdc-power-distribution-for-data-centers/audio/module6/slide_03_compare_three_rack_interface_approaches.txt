@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Chapter nine adds a dedicated treatment of the rack interface. It describes three approaches: an L V D C to extra-low-voltage D C conversion shelf, an L V D C junction interface, and a smart L V D C power distribution unit. Each defines a different boundary between facility distribution and downstream equipment.
+
+The conversion shelf supplies an extra-low-voltage rack bus, such as an approximately fifty-volt ecosystem, from a higher-voltage D C input. A junction interface distributes L V D C toward equipment that handles the required conversion downstream. A smart distribution unit adds defined distribution and control functions, but its name alone does not specify every protective or conversion function.
+
+For each approach, locate where voltage conversion happens and who owns the input interface. Identify the isolation boundary, the branch protection, and the functions needed to connect equipment safely. These responsibilities may move even when the useful load remains the same.
+
+Do not treat one approach as mandatory above a particular rack power just because it appears attractive in an example. The correct comparison includes product availability, maintainability, space, losses, and the required operating behavior.
+
+The O C P Diablo four hundred course provides a useful companion view of a sidecar product boundary, its power interfaces, buffering, grounding, and telemetry. Its earlier facility-level L V D C discussion is context; this course's version one dot one paper remains the baseline for the current system review.

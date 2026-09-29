@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Recovery from a fault should be a defined decision, not an automatic assumption that the next close command will succeed. Determine whether the fault has been removed or isolated, which equipment remains available, and whether the proposed action can re-energize an unsafe or damaged section.
+
+Lockout is one way to prevent an inappropriate transition until the required conditions and authorization exist. The design must specify what sets the lockout, how its state is communicated, and what evidence permits a reset. It should also address loss of control power or communications during the event.
+
+Maintenance introduces additional requirements. Opening a path does not necessarily remove downstream stored energy or prevent backfeed from another source. Discharge can take time, and voltage can rebound under some conditions. The system must define the physical boundary and the method of verifying the intended condition.
+
+Keep controller information and independent verification separate. Telemetry can support the procedure, but a reported zero or off state is not automatically sufficient evidence for every maintenance action. The approved procedure determines which checks are required and who performs them.
+
+The diagram distinguishes the controller's recovery logic from the human verification responsibility. It is a review aid, not an operating instruction. Use it to ask whether abnormal states have complete exits, whether unsafe automatic retries are prevented, and whether the design's evidence matches the procedure used by the people operating the facility.

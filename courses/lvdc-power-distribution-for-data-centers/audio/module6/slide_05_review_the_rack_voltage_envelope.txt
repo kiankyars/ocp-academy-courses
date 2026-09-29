@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+The rack input needs an explicit voltage contract. Separate continuous operation, short excursions, and protective or withstand conditions. These categories answer different questions and should not be collapsed into a single maximum-voltage label.
+
+For continuous operation, determine the range over which the rack must provide its required function and power. At a lower input voltage, the current needed for the same power increases. The input converter and distribution path may impose limits that are not visible in a nominal designation.
+
+For a transient, include both magnitude and duration. A rack may be expected to ride through one excursion while it is permitted or required to stop under another. The input filter, stored energy, and protection response affect that behavior. Withstand alone does not prove continued operation.
+
+Figure nine point five in the paper is a preliminary proposal, with unresolved time values and lower-voltage conditions. It should not be taught as a finished universal rack requirement, or silently merged with the different chapter-five proposals.
+
+A reviewable contract names the source version, the source and load responsibilities, and the tests that demonstrate them. If a duration is still to be determined, keep it visibly unresolved. The engineering task is to close that gap with agreed requirements and evidence, rather than assume a product is compatible because its nominal input looks familiar.

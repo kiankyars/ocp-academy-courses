@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Converter names can hide several independent characteristics. A controlled converter can regulate relevant electrical behavior within its designed range. An uncontrolled conversion stage has different capabilities. Neither description, by itself, establishes whether the circuit is galvanically isolated.
+
+Isolation is a separate property of the topology. A low-frequency transformer may sit before rectification, or a high-frequency isolated stage may sit within a multi-stage converter. The resulting power chain must still deliver the required output, handle abnormal conditions, and meet the intended insulation and referencing requirements.
+
+Power-flow direction is another question. A bidirectional capability can be useful for storage integration or energy exchange, but it must be part of the equipment's actual design and control strategy. Do not infer that capability from a generic converter symbol.
+
+The fault response deserves its own evidence. A device may regulate current during one condition while allowing capacitor discharge or a different current path during another. The system review needs the transient behavior, not just a normal-operation efficiency curve.
+
+Use this table as a classification method. For each converter, record the control function, isolation location, power-flow capability, and fault behavior. Then ask whether those functions satisfy the architecture's requirements. The solid state transformer companion course provides deeper product and topology context; this module keeps the focus on the functions that the surrounding D C system depends on.

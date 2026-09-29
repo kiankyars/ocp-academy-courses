@@ -1,0 +1,5 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+You have completed module 1: L V D C adoption and system architecture. L V D C is a set of architecture choices. Conversion placement, fault boundaries and viable alternate paths must be evaluated together.
+
+The next module, Voltage bands and equipment compatibility, builds on this boundary by asking a different set of connected questions. Continue through the course modules using the learning platform syllabus. You can also return to this module whenever you need to revisit the paper links, figures, or knowledge-check feedback.

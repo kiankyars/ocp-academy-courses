@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+A controlled rack connection contains several different electrical events. Follow the rack input from its connector, through the input filter and hot-swap controller, to the bulk capacitors and downstream converters. The initial connection, controlled capacitor charging, and application of the computing load have different purposes. Keeping them separate makes the interface easier to specify and test.
+
+First, consider the initial connection. Parasitic capacitances in wiring and components can draw a brief inrush even when the hot-swap controller is present. The paper describes precharge contacts and a current-limiting path to manage this event. Presence contacts provide connection information. Their geometry and sequence belong to the actual connector design; the functional drawing does not define a pinout.
+
+Now follow the hot-swap controller. It controls the current used to charge the downstream bulk capacitance. The capacitor voltage rises while charging current is limited. This is a separate charging interval from the initial connection spike. The implementer defines the current, duration, device stress limits and readiness criteria. Reaching a plausible voltage alone does not prove that every required condition is satisfied.
+
+After the required charging and readiness conditions have been met, the downstream converters can be enabled and the load applied. Input current now reflects the operating load. The current trace distinguishes the initial connection event, bulk charging and load application. The event spacing is expanded for explanation; these are not universal electrical time scales or specified current values.
+
+Consider a different outcome. If charging fails to complete, or a monitored fault is detected, the control must follow its defined inhibit or turn-off response. Stored energy can remain after switching stops. Discharge, protective earth, isolation and verification still have separate responsibilities. Review the actual thresholds, sensing, reset conditions and evidence at the rack interface. A hot-swap function does not establish every safety function by itself.

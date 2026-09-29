@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Assess utility-interface behavior separately from internal D C continuity. Match conversion, storage and distribution functions to their actual duty. Include cooling readiness and monitoring in power availability.
+
+Conversion, storage, distribution and cooling choices must serve the same operating and fault requirements. Component labels alone cannot establish system suitability.
+
+Pause for a brief application before continuing. Choose one storage or conversion block. Which event must it support, which loads are inside its boundary, and which dependencies remain outside?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+Review the proposed system on its stated assumptions. Two sources feed a shared bus. Each rack has one feeder. Local buffering and a separately supplied coolant distribution unit support different parts of the installation. Assume adequate remaining source capacity, but do not assume successful fault ride-through. The alternate feeder considered earlier is not part of this original scenario.
+
+Apply a fault on Rack B's branch. Stored energy and connected sources can contribute current according to their interfaces. The common bus is disturbed before the intended branch isolation occurs. Keep the two rack outcomes separate. Rack A retains a route after isolation, but its voltage tolerance still needs evidence. Rack B's only illustrated feeder is unavailable.
+
+Pause the event and review the dependencies. A surviving electrical route does not prove that Rack A stayed within its tolerated voltage and time envelope. The local buffer's available energy is another condition. Cooling must remain available through its own supply and controls. In this proposal those service outcomes remain unproven until representative evidence is supplied. Mark assumptions and unknowns explicitly.
+
+Continue into the proposed recovery. Remaining sources must support the admitted load together with storage recharge. Rack admission depends on cooling and protection readiness, and staged return may be needed to control aggregate demand. The faulted branch follows its defined lockout, inspection and reset requirements. Do not reconnect it merely because the shared bus has recovered.
+
+The review can establish that spare source capacity does not bypass the faulted rack's open feeder. It can identify the intended healthy-rack route and the conditions needed for useful service. It cannot claim uninterrupted operation without the required waveforms, load tolerances, cooling evidence and tested recovery sequence. Carry those missing items into the decision list with an owner and an acceptance criterion. That is a defensible design-review conclusion.

@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A method of procedure describes how people perform an operation. A sequence of operations describes how the automated system responds to conditions and commands. These documents should agree, but they serve different responsibilities.
+
+The human procedure identifies roles, authorization, ordered actions, and required checks. The automated sequence defines states, permitted transitions, timeouts, and responses to abnormal conditions. A command in the procedure may request a transition; it does not prove that the transition completed successfully.
+
+Consider a request to energize a rack group. The sequence may require adequate voltage, capacity, cooling readiness, and a valid connection state. If one condition is absent, the system should follow a defined response. The human procedure should explain what the operator is allowed to do next and what evidence must be reviewed.
+
+Ownership matters at these handoffs. Identify which controller decides, which device acts, which system reports the result, and which person can authorize an exceptional action. Ambiguous responsibility can turn an otherwise reasonable state diagram into an unsafe or unreliable operating process.
+
+The paper introduces this structure but contains incomplete subsections. This course therefore teaches the questions an operating design must answer. It does not turn those placeholders into a commissioned startup or black-start procedure. The actual installation needs a complete, approved sequence and a matching human procedure supported by verification.

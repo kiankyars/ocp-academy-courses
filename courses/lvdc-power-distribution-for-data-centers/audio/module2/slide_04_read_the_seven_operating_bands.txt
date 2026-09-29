@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+The seven voltage bands organize behavior, not just numbers. Read the ladder from low voltage upward. Band one represents blackout. Band two is a critical operating region. Band three is the nominal operating region, while band four allows temporary operation under defined conditions.
+
+The next transition is important. Band five is an overvoltage protection region in which normal operation is not required. Band six concerns clamping, and band seven is prohibited. A device's ability to withstand or clamp a voltage must not be interpreted as permission to operate continuously at that voltage.
+
+The boundaries need a time dimension and a statement of responsibility. A source may be expected to hold its output within one range. A load may need to remain operating through a defined excursion outside that range. Protection may act beyond another threshold. Those requirements can complement one another, but only when the values and durations are coordinated.
+
+The diagram deliberately shows the functions without inventing a single set of numerical limits. Later proposals in the paper use different envelopes and contain unresolved items. Carrying numbers from one proposal into another would create a requirement the paper has not established.
+
+Use the band model to structure a conversation. Which region should the system occupy normally? What happens during a disturbance? What must continue working, what may stop, and what must prevent damage? Ask those questions before accepting a color-coded voltage chart.

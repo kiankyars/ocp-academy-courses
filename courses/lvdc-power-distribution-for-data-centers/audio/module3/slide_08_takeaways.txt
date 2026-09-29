@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Trace normal load current separately from protective paths. Review polarity, midpoint distribution, earthing and voltage together. Use the v1.1 matrix and footnotes to test actual product compatibility.
+
+Polarity, midpoint distribution, earthing and voltage form a combined choice. Device compatibility and protection must be checked for that specific combination.
+
+Pause for a brief application before continuing. Choose one conductor in a bipolar drawing. Can you identify its normal-current role and distinguish that role from the protective path?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

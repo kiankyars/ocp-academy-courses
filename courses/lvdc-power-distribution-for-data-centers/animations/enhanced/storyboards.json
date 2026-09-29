@@ -1,0 +1,572 @@
+[
+  {
+    "module": 6,
+    "slide": 6,
+    "asset": "precharge",
+    "title": "Inside a controlled rack connection",
+    "chapters": [
+      {
+        "title": "Three different events",
+        "narration": "A controlled rack connection contains several different electrical events. Follow the rack input from its connector, through the input filter and hot-swap controller, to the bulk capacitors and downstream converters. The initial connection, controlled capacitor charging, and application of the computing load have different purposes. Keeping them separate makes the interface easier to specify and test.",
+        "start": 0.0,
+        "speech_duration": 20.108480725623583,
+        "end": 20.48848072562358
+      },
+      {
+        "title": "Initial connection",
+        "narration": "First, consider the initial connection. Parasitic capacitances in wiring and components can draw a brief inrush even when the hot-swap controller is present. The paper describes precharge contacts and a current-limiting path to manage this event. Presence contacts provide connection information. Their geometry and sequence belong to the actual connector design; the functional drawing does not define a pinout.",
+        "start": 20.48848072562358,
+        "speech_duration": 22.755555555555556,
+        "end": 43.62403628117914
+      },
+      {
+        "title": "Controlled bulk charging",
+        "narration": "Now follow the hot-swap controller. It controls the current used to charge the downstream bulk capacitance. The capacitor voltage rises while charging current is limited. This is a separate charging interval from the initial connection spike. The implementer defines the current, duration, device stress limits and readiness criteria. Reaching a plausible voltage alone does not prove that every required condition is satisfied.",
+        "start": 43.62403628117914,
+        "speech_duration": 23.684353741496597,
+        "end": 67.68839002267573
+      },
+      {
+        "title": "Enable the load",
+        "narration": "After the required charging and readiness conditions have been met, the downstream converters can be enabled and the load applied. Input current now reflects the operating load. The current trace distinguishes the initial connection event, bulk charging and load application. The event spacing is expanded for explanation; these are not universal electrical time scales or specified current values.",
+        "start": 67.68839002267573,
+        "speech_duration": 21.037278911564627,
+        "end": 89.10566893424036
+      },
+      {
+        "title": "Alternative: failed readiness",
+        "narration": "Consider a different outcome. If charging fails to complete, or a monitored fault is detected, the control must follow its defined inhibit or turn-off response. Stored energy can remain after switching stops. Discharge, protective earth, isolation and verification still have separate responsibilities. Review the actual thresholds, sensing, reset conditions and evidence at the rack interface. A hot-swap function does not establish every safety function by itself.",
+        "start": 89.10566893424036,
+        "speech_duration": 28.421224489795918,
+        "end": 118.17687074829932
+      }
+    ],
+    "pages": [
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182
+    ],
+    "caption": "Three distinct events: initial connection, controlled bulk charging and load application. Functional redraw based on paper Figures 9.6–9.10; event scales and levels are illustrative.",
+    "duration": 118.17687074829932
+  },
+  {
+    "module": 4,
+    "slide": 4,
+    "asset": "selectivity",
+    "title": "One fault, two load outcomes",
+    "chapters": [
+      {
+        "title": "The service requirement",
+        "narration": "Protection has to interrupt the faulted path while preserving the intended service elsewhere. This example contains a source converter, stored energy on the bus, and two rack branches. One branch will fault. The other rack is the load we want to keep operating. Its input-voltage tolerance is part of the protection review, alongside the interrupting devices.",
+        "start": 0.0,
+        "speech_duration": 18.94748299319728,
+        "end": 19.32748299319728
+      },
+      {
+        "title": "Energy reaches the fault",
+        "narration": "When the branch fault occurs, several paths can feed it. Source-side capacitance releases energy, and the converter responds according to its design. Stored energy on a neighboring load can also feed backward if the interface permits that path. Follow the directions of current. Healthy-branch protection can experience a fault contribution even though the fault is elsewhere. Actual magnitudes depend on the network and equipment.",
+        "start": 19.32748299319728,
+        "speech_duration": 23.870113378684806,
+        "end": 43.57759637188209
+      },
+      {
+        "title": "Case A: tolerance retained",
+        "narration": "In the first illustrative case, branch protection interrupts the fault before the healthy load exhausts its assumed tolerance. Align the electrical events with the voltage trace: the fault begins, the voltage falls, the selected branch opens, and the remaining bus recovers. Recovery also depends on the remaining sources and controls. The shaded boundary represents this example's load tolerance, not a universal requirement.",
+        "start": 43.57759637188209,
+        "speech_duration": 24.38095238095238,
+        "end": 68.33854875283447
+      },
+      {
+        "title": "Case B: tolerance exceeded",
+        "narration": "Now compare a separate case with a longer disturbance. The fault still clears, but the healthy load leaves its tolerated region first. Eventual interruption has not preserved the required service. A faster individual device is not enough on its own either. Its action must coordinate with the other protection functions, including reverse current on healthy branches and the intended response of connected converters.",
+        "start": 68.33854875283447,
+        "speech_duration": 22.291156462585032,
+        "end": 91.0097052154195
+      },
+      {
+        "title": "Evidence decides the outcome",
+        "narration": "The two traces lead to different service outcomes, although both end with the faulted branch open. For a real design, compare validated fault behavior, protection actions and load tolerance on the same timeline. Include stored-energy contributions and alternate-feed conditions where they exist. The animation explains that comparison. It does not establish a clearing time, a fault-current rating, or successful continuity for an untested installation.",
+        "start": 91.0097052154195,
+        "speech_duration": 24.102312925170068,
+        "end": 115.7619954648526
+      }
+    ],
+    "pages": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ],
+    "caption": "Illustrative comparison of fault contributions, branch interruption and healthy-load tolerance. Both cases clear the fault; only Case A stays within the assumed tolerance.",
+    "duration": 115.7619954648526
+  },
+  {
+    "module": 5,
+    "slide": 5,
+    "asset": "storage",
+    "title": "Who supplies the load step?",
+    "chapters": [
+      {
+        "title": "Locate the support",
+        "narration": "Storage supports the equipment it can reach through a usable electrical path. Here the rack has local buffering, the shared bus has converter-connected storage, and the upstream supply serves sustained demand. A coolant distribution unit has a separate branch. These locations create different support boundaries. They do not establish a fixed order in which the resources must operate.",
+        "start": 0.0,
+        "speech_duration": 20.94439909297052,
+        "end": 21.32439909297052
+      },
+      {
+        "title": "Overlapping contributions",
+        "narration": "Apply a rise in the computing load. Local buffering can address the rapid mismatch while bus storage and the upstream source adjust. Their contributions can overlap. The normalized graph shows one illustrative sharing pattern: the contributions add to the load demand at the stated boundary. Actual response rates and sharing depend on the converters, control settings, available energy and distribution system.",
+        "start": 21.32439909297052,
+        "speech_duration": 23.591473922902495,
+        "end": 45.29587301587301
+      },
+      {
+        "title": "Power and energy",
+        "narration": "Power describes the rate of support. Energy describes the amount delivered over time. The highlighted area under a storage power trace accumulates as the event continues. A short high-power burst and a longer event therefore create different requirements. A large energy store can still have a restrictive power limit, and a high-power buffer can still run out of usable energy.",
+        "start": 45.29587301587301,
+        "speech_duration": 21.223038548752836,
+        "end": 66.89891156462585
+      },
+      {
+        "title": "Recovery includes recharge",
+        "narration": "When the extra computing demand ends, the storage must eventually recover its energy. During recharge, the upstream supply serves the continuing load and the charging demand. Compare the demand with available source capacity and the permitted ramp. Uncoordinated recharge can create another disturbance. The animation changes to a separate recovery time window; the spacing does not specify a universal charging duration.",
+        "start": 66.89891156462585,
+        "speech_duration": 22.987755102040815,
+        "end": 90.26666666666667
+      },
+      {
+        "title": "Check the cooling boundary",
+        "narration": "Finally, trace the support boundary to the coolant distribution unit. The rack buffer in this drawing cannot energize that separate upstream branch. Keeping server power available is therefore only part of useful-service continuity. The Deschutes course examines the coolant distribution unit in more detail, and the O C P Ready energy storage course extends storage deployment and acceptance evidence. Match placement, power, energy and controls to the event you need to support.",
+        "start": 90.26666666666667,
+        "speech_duration": 26.284988662131518,
+        "end": 117.20163265306122
+      }
+    ],
+    "pages": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      165,
+      196
+    ],
+    "caption": "An illustrative load step connects overlapping support, accumulated energy and recharge demand. Rack buffering does not supply the separately drawn CDU branch.",
+    "duration": 117.20163265306122
+  },
+  {
+    "module": 1,
+    "slide": 6,
+    "asset": "paths",
+    "title": "Where redundancy actually works",
+    "chapters": [
+      {
+        "title": "Capacity and routes",
+        "narration": "Begin with two sources feeding a shared direct-current bus and two racks. Each rack has one feeder. Assume the remaining source can carry the required load if the other source is unavailable. That is the capacity assumption behind this N plus one example. Now distinguish the amount of source capacity from the routes that actually connect it to the loads.",
+        "start": 0.0,
+        "speech_duration": 22.38403628117914,
+        "end": 22.764036281179138
+      },
+      {
+        "title": "Case A: one source unavailable",
+        "narration": "In the first case, one source becomes unavailable. The other source still has routes through the bus to both racks. The topology permits supply to continue, provided the remaining capacity and equipment response meet the service requirement. The drawing establishes the route; the transient behavior and actual availability still need evidence. A surviving line on a diagram does not prove uninterrupted operation.",
+        "start": 22.764036281179138,
+        "speech_duration": 23.312834467120183,
+        "end": 46.456870748299316
+      },
+      {
+        "title": "Case B: a feeder unavailable",
+        "narration": "Reset to the original arrangement and consider a different failure. This time Rack B's only feeder becomes unavailable. Source capacity remains upstream, but the route ends at the interruption. Adding another source to the same bus would not bridge that gap. Rack A retains its separate route, subject to protection and voltage recovery. Rack B's continuity has not been established.",
+        "start": 46.456870748299316,
+        "speech_duration": 23.637913832199548,
+        "end": 70.47478458049886
+      },
+      {
+        "title": "Design alternative: another feeder",
+        "narration": "Now change the design explicitly. Add a second feeder that bypasses the affected feeder boundary. Trace that alternative all the way to a compatible rack input. The route also needs the required protection, switching or sharing behavior, and available equipment. This is an alternative arrangement, not a recovery path that secretly existed in the original single-fed rack.",
+        "start": 70.47478458049886,
+        "speech_duration": 21.455238095238094,
+        "end": 92.31002267573696
+      },
+      {
+        "title": "The shared boundary remains",
+        "narration": "Both feeders in this alternative still depend on the shared bus. They address a feeder interruption, but they do not remove that common dependency. Repeat the path review for the faults and maintenance conditions in the service requirement. Source redundancy describes capacity. Distribution redundancy describes usable routes. A credible availability claim needs both, together with evidence that the connected equipment behaves as required.",
+        "start": 92.31002267573696,
+        "speech_duration": 25.402630385487527,
+        "end": 118.36263038548753
+      }
+    ],
+    "pages": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "caption": "Compare distinct source and feeder failures, then an explicitly changed feeder arrangement. Usable paths and adequate capacity are separate conditions; shared dependencies remain.",
+    "duration": 118.36263038548753
+  },
+  {
+    "module": 2,
+    "slide": 5,
+    "asset": "envelope",
+    "title": "What voltage reaches the rack?",
+    "chapters": [
+      {
+        "title": "Two measurement boundaries",
+        "narration": "A source and a rack can carry the same nominal voltage label without being compatible in every operating state. Measure at both ends of the actual connection. The rack sees source behavior combined with conductor drop and intermediate equipment. The outgoing and return conductors are both part of that circuit. The review must use the voltage delivered at the load terminals.",
+        "start": 0.0,
+        "speech_duration": 20.108480725623583,
+        "end": 20.48848072562358
+      },
+      {
+        "title": "Distribution consumes margin",
+        "narration": "The paper compares a short sidecar connection with a longer distribution run. In its resistive-drop example, the long run leaves twelve point four volts of a twenty-volt lower-side margin available for control. The example uses two hundred kilowatts, two hundred fifty amperes, and its stated conductor and distance assumptions. It demonstrates how distribution consumes margin; it is not a general cable-sizing recommendation.",
+        "start": 20.48848072562358,
+        "speech_duration": 22.755555555555556,
+        "end": 43.62403628117914
+      },
+      {
+        "title": "Demand changes the interface",
+        "narration": "Move now to a separate qualitative load-change case. Increasing demand raises current and conductor drop, so the voltage at the rack falls relative to the source. If the selected source reaches its current limit, it cannot necessarily maintain the requested voltage or power. The exact response depends on the source and load converters. Do not transfer the preceding example's numerical drop into this transient.",
+        "start": 43.62403628117914,
+        "speech_duration": 22.894875283446712,
+        "end": 66.89891156462585
+      },
+      {
+        "title": "Magnitude and duration",
+        "narration": "Compare the delivered-voltage excursion with the load's input requirements and permitted duration. One illustrative disturbance recovers within the assumed tolerance. Another remains outside that tolerance for too long. Equal nominal voltages cannot distinguish these outcomes. Stored energy, power availability and recovery behavior belong in the compatibility review along with the normal operating range.",
+        "start": 66.89891156462585,
+        "speech_duration": 22.569795918367348,
+        "end": 89.84870748299319
+      },
+      {
+        "title": "Agree the complete envelope",
+        "narration": "The evidence must connect three things: the validated source envelope, calculated or measured distribution effects, and the load's required voltage, time and power envelope. Returning sources or several loads reconnecting together can create another transient. Keep the paper's proposed numerical envelopes separate from settled interface requirements. The decision belongs at the connected interface, across all relevant operating states.",
+        "start": 89.84870748299319,
+        "speech_duration": 24.102312925170068,
+        "end": 114.60099773242631
+      }
+    ],
+    "pages": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "caption": "Source and load terminals are different boundaries. The paper’s p. 76 resistive-drop example is followed by separate qualitative demand and voltage-time comparisons.",
+    "duration": 114.60099773242631
+  },
+  {
+    "module": 3,
+    "slide": 4,
+    "asset": "midpoint",
+    "title": "Follow the midpoint current",
+    "chapters": [
+      {
+        "title": "Define the circuit",
+        "narration": "Consider a bipolar arrangement with the positive conductor, midpoint M and negative conductor all distributed. One load is connected between the positive pole and M. The other is connected between M and the negative pole. Protective earth is drawn separately. The arrows use conventional current directions. This is a defined load circuit, not an earth-fault example.",
+        "start": 0.0,
+        "speech_duration": 21.037278911564627,
+        "end": 21.417278911564626
+      },
+      {
+        "title": "Equal pole loading",
+        "narration": "With equal pole-to-midpoint loads, matching currents flow in the two pole circuits. At the shared midpoint segment, their contributions cancel. Follow each complete loop through its source section and load. Zero current in that shared segment is a result of the balanced operating condition. It is not a reason to assume that the midpoint never carries current.",
+        "start": 21.417278911564626,
+        "speech_duration": 19.272562358276645,
+        "end": 41.06984126984127
+      },
+      {
+        "title": "Positive-pole demand rises",
+        "narration": "Increase the positive-pole load while the other load stays unchanged. The shared midpoint now carries the difference. The conductor indicators use normalized currents so the relationship is visible without prescribing ratings. The current returns in the intended midpoint circuit. Protective earth does not become its normal load return. The changed load condition changes which conductors are carrying current.",
+        "start": 41.06984126984127,
+        "speech_duration": 22.987755102040815,
+        "end": 64.43759637188208
+      },
+      {
+        "title": "The imbalance reverses",
+        "narration": "Consider another operating state. Reduce the positive-pole demand and increase the negative-pole demand. The mismatch reverses, and so does current in the shared midpoint segment. Workloads, staged startup and branch maintenance can all change the balance. A design snapshot with equal loads does not represent every ordinary operating condition.",
+        "start": 64.43759637188208,
+        "speech_duration": 19.4118820861678,
+        "end": 84.22947845804988
+      },
+      {
+        "title": "Design for the operating states",
+        "narration": "Hold the unequal-load condition and review the midpoint's thermal capability, switching and protection responsibilities. Any reduced midpoint rating depends on limiting imbalance or providing appropriate protection. Source capability and downstream compatibility also matter. Use the paper's configuration matrix and its footnotes for the actual arrangement. The useful habit is to follow the currents before turning a simplified balanced drawing into a design assumption.",
+        "start": 84.22947845804988,
+        "speech_duration": 24.61315192743764,
+        "end": 109.49260770975057
+      }
+    ],
+    "pages": [
+      83,
+      84,
+      85,
+      99,
+      100,
+      101
+    ],
+    "caption": "Normalized conventional currents in a declared bipolar load circuit. Midpoint current follows the signed load difference; PE remains separate from normal load return.",
+    "duration": 109.49260770975057
+  },
+  {
+    "module": 7,
+    "slide": 5,
+    "asset": "states",
+    "title": "Permission to energize",
+    "chapters": [
+      {
+        "title": "Conditions have owners",
+        "narration": "A healthy bus is only one condition for admitting a rack load. Available capacity, protection readiness, storage status and required cooling also matter. Separate the condition being checked from the automated action and the person or system responsible for it. A useful sequence defines what happens when a condition is false or unavailable, as well as when all conditions are satisfied.",
+        "start": 0.0,
+        "speech_duration": 22.569795918367348,
+        "end": 22.949795918367347
+      },
+      {
+        "title": "The permitted path",
+        "narration": "Follow the permitted path. Readiness checks allow controlled precharge. Confirmed charging and the remaining required conditions allow load enable. Normal energized operation is an operating state, not an instruction to progress next into a fault. The exact conditions and thresholds belong to the approved equipment and site sequence. The paper does not supply a complete universal black-start procedure.",
+        "start": 22.949795918367347,
+        "speech_duration": 22.801995464852606,
+        "end": 46.131791383219955
+      },
+      {
+        "title": "Alternative: cooling unavailable",
+        "narration": "Now start a separate admission case. Electrical supply is available, but the required coolant distribution unit has not established the necessary readiness or flow condition. Rack admission remains blocked. The controller must use the defined signal and ownership, rather than infer cooling from bus voltage. This illustrates an electrical permissive; it does not calculate how long a rack can operate without cooling.",
+        "start": 46.131791383219955,
+        "speech_duration": 22.430476190476192,
+        "end": 68.94226757369614
+      },
+      {
+        "title": "Recovery is coordinated",
+        "narration": "After a disturbance, recovery introduces another set of conditions. Re-admit rack groups in stages while allowing for source headroom and storage recharge. Compare that with simultaneous restart and recharge, which can create a larger aggregate demand. The illustrated profiles are qualitative. The actual sequence must meet the equipment and utility requirements; the grid disturbance companion course develops that interface.",
+        "start": 68.94226757369614,
+        "speech_duration": 23.405714285714286,
+        "end": 92.72798185941043
+      },
+      {
+        "title": "Fault and maintenance branches",
+        "narration": "A detected fault can divert operation into lockout, with explicit conditions for reset. A maintenance request follows its defined isolation, discharge and verification route. These are separate branches with assigned responsibilities. Controller-reported de-energization does not by itself verify absence of hazardous energy. Ask who owns each permissive, what happens when its signal fails, and what evidence is recorded before a transition is accepted.",
+        "start": 92.72798185941043,
+        "speech_duration": 25.727709750566895,
+        "end": 119.10566893424036
+      }
+    ],
+    "pages": [
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "caption": "A branching sequence separates permitted admission, blocked cooling readiness, recovery, fault lockout and maintenance verification. Thresholds and timing remain equipment- and site-specific.",
+    "duration": 119.10566893424036
+  },
+  {
+    "module": 8,
+    "slide": 4,
+    "asset": "noise_paths",
+    "title": "Noise always has a return path",
+    "chapters": [
+      {
+        "title": "Locate the conductors and enclosure",
+        "narration": "A noise path is a complete circuit, even when part of it is easy to overlook. Begin with a converter, a load, their power conductors and bonded enclosures. The physical arrangement and the equivalent circuit describe the same system. High-frequency current can use capacitance and bonding paths that are not obvious in a simple power-flow drawing.",
+        "start": 0.0,
+        "speech_duration": 19.040362811791383,
+        "end": 19.42036281179138
+      },
+      {
+        "title": "Differential mode",
+        "narration": "For differential mode noise, current travels outward on one power conductor and returns on the other. Follow the whole loop between converter and load. The animated arrows indicate a representative instantaneous direction; the noise varies with time. They do not represent a new direct-current power source. Conductor arrangement and loop geometry influence the behavior that must be evaluated.",
+        "start": 19.42036281179138,
+        "speech_duration": 21.501678004535147,
+        "end": 41.30204081632653
+      },
+      {
+        "title": "Common mode",
+        "narration": "For common mode noise, currents on the power conductors have the same instantaneous direction relative to the reference. The return is elsewhere. Trace it through capacitance to the enclosure, along the bonding path, and back through the converter's coupling path. An earth symbol does not make the current disappear. The complete return path is essential to understanding the interference.",
+        "start": 41.30204081632653,
+        "speech_duration": 20.851519274376418,
+        "end": 62.53356009070295
+      },
+      {
+        "title": "Filtering changes the route",
+        "narration": "Introduce a conceptual filtering and bonding arrangement. The high-frequency route changes, but the current still closes a loop. A filter may reduce disturbance at one boundary while changing current elsewhere. Its behavior depends on frequency, impedance, layout and the connected equipment. This drawing identifies those relationships. It does not prescribe a filter topology or promise a numerical reduction in emissions.",
+        "start": 62.53356009070295,
+        "speech_duration": 23.823673469387757,
+        "end": 86.7372335600907
+      },
+      {
+        "title": "Review the installed system",
+        "narration": "Follow the return path in the actual installation, including bonds, cable geometry and parasitic capacitances. Then select representative emissions and immunity checks. Converter interaction and bus stability also need system-level review, but they are not simply another name for common mode noise. Keep those behaviors distinct while coordinating the architecture, filtering, earthing and verification evidence.",
+        "start": 86.7372335600907,
+        "speech_duration": 23.359274376417233,
+        "end": 110.74648526077098
+      }
+    ],
+    "pages": [
+      203,
+      204,
+      205,
+      206,
+      207,
+      211,
+      212,
+      213,
+      214
+    ],
+    "caption": "Complete differential and common mode loops in one conceptual layout. Filtering changes high-frequency current routes; earth is not an ideal sink or a universal zero-impedance reference.",
+    "duration": 110.74648526077098
+  },
+  {
+    "module": 10,
+    "slide": 5,
+    "asset": "scenario_fault",
+    "title": "Follow the fault through the whole system",
+    "chapters": [
+      {
+        "title": "Declare the scenario",
+        "narration": "Review the proposed system on its stated assumptions. Two sources feed a shared bus. Each rack has one feeder. Local buffering and a separately supplied coolant distribution unit support different parts of the installation. Assume adequate remaining source capacity, but do not assume successful fault ride-through. The alternate feeder considered earlier is not part of this original scenario.",
+        "start": 0.0,
+        "speech_duration": 21.501678004535147,
+        "end": 21.881678004535146
+      },
+      {
+        "title": "Apply the branch fault",
+        "narration": "Apply a fault on Rack B's branch. Stored energy and connected sources can contribute current according to their interfaces. The common bus is disturbed before the intended branch isolation occurs. Keep the two rack outcomes separate. Rack A retains a route after isolation, but its voltage tolerance still needs evidence. Rack B's only illustrated feeder is unavailable.",
+        "start": 21.881678004535146,
+        "speech_duration": 21.966077097505668,
+        "end": 44.22775510204082
+      },
+      {
+        "title": "Separate evidence from assumptions",
+        "narration": "Pause the event and review the dependencies. A surviving electrical route does not prove that Rack A stayed within its tolerated voltage and time envelope. The local buffer's available energy is another condition. Cooling must remain available through its own supply and controls. In this proposal those service outcomes remain unproven until representative evidence is supplied. Mark assumptions and unknowns explicitly.",
+        "start": 44.22775510204082,
+        "speech_duration": 23.91655328798186,
+        "end": 68.52430839002268
+      },
+      {
+        "title": "Recovery creates new conditions",
+        "narration": "Continue into the proposed recovery. Remaining sources must support the admitted load together with storage recharge. Rack admission depends on cooling and protection readiness, and staged return may be needed to control aggregate demand. The faulted branch follows its defined lockout, inspection and reset requirements. Do not reconnect it merely because the shared bus has recovered.",
+        "start": 68.52430839002268,
+        "speech_duration": 20.758639455782312,
+        "end": 89.662947845805
+      },
+      {
+        "title": "State a qualified conclusion",
+        "narration": "The review can establish that spare source capacity does not bypass the faulted rack's open feeder. It can identify the intended healthy-rack route and the conditions needed for useful service. It cannot claim uninterrupted operation without the required waveforms, load tolerances, cooling evidence and tested recovery sequence. Carry those missing items into the decision list with an owner and an acceptance criterion. That is a defensible design-review conclusion.",
+        "start": 89.662947845805,
+        "speech_duration": 25.541950113378686,
+        "end": 115.85487528344672
+      }
+    ],
+    "pages": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      165,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "caption": "Apply the declared single-feeder scenario across protection, rack tolerance, storage, cooling and recovery. Distinguish topology, assumptions and missing service evidence.",
+    "duration": 115.85487528344672
+  },
+  {
+    "module": 9,
+    "slide": 7,
+    "asset": "evidence",
+    "title": "What does this evidence actually prove?",
+    "chapters": [
+      {
+        "title": "Worked evidence review",
+        "narration": "A useful evidence review starts with a claim and asks what would demonstrate it. The matrix follows four claims in a fictional proposal. Each requires evidence at a different boundary.\n\nFor the protective device, review the applicable product scope, ratings and demonstrated functions. A suitable product does not by itself establish coordination or service continuity in the assembled system.\n\nFor healthy-rack survival during a branch fault, compare representative system behavior with the load's voltage and time tolerance. Testing a single operating configuration does not establish every source combination or load condition.\n\nFor controlled restart, test the sequence, including cooling and storage conditions and the responses to missing or failed signals. Retain acceptance records. Those tests still need to represent the installed configuration, wiring and field conditions.\n\nFor local deployment, identify the applicable installation and utility requirements and the evidence those parties need. A product report or a pilot elsewhere does not automatically establish acceptance at this site.\n\nModeling, hardware-in-the-loop work, laboratory tests, factory acceptance and site acceptance answer different questions. For each claim, name the method, acceptance criterion, owner and record. Then state the limits of the evidence and the remaining gap. The O C P Ready energy storage course develops related deployment and acceptance questions. The review is complete when its conclusion matches what the evidence actually establishes.",
+        "start": 0.0,
+        "speech_duration": 80.43392290249433,
+        "end": 81.08390022675736
+      }
+    ],
+    "pages": [
+      201,
+      202,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230
+    ],
+    "static": true,
+    "caption": "A fictional proposal: compare each claim with its required evidence and the limits of what that evidence establishes.",
+    "duration": 81.08390022675736
+  }
+]

@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. State the proposal’s assumptions before evaluating its claims. Trace interfaces, fault response and conditional recovery. Resolve evidence gaps through named owners and acceptance criteria.
+
+A sound proposal explains the interfaces, fault response and operating states, and names the studies and approvals still needed. Course completion does not qualify an engineering design.
+
+Pause for a brief application before continuing. Choose the most consequential open item in the fictional proposal. Can you name the owner, the verification method, and the result that would close it?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

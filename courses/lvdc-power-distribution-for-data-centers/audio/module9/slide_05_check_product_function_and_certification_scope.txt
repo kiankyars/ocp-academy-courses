@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A product's certification evidence should be read as a statement with a defined scope. Start with the function being evaluated. Is the evidence about interruption, isolation, conversion, switching, or some combination? Then check the voltage range, application, and conditions under which that function was assessed.
+
+Solid-state protection is a useful example. I E C six zero nine four seven dash ten, twenty twenty-six, addresses semiconductor circuit-breakers within its stated low-voltage scope and includes the relevant series mechanical isolation arrangement. That does not make every electronic switch equivalent to a certified circuit-breaker or to a complete isolation solution.
+
+The U L outline of investigation for solid-state circuit-breakers provides another example of why document type matters. The evaluated product and the certification context must be checked directly. Do not turn an outline title into a blanket statement about every device using the same technology.
+
+Power supplies require the same discipline. A voltage label or an efficiency curve does not show every safety function, fault response, or installation condition. Confirm the actual product evidence and the supplier's application limits.
+
+Finally, map the evaluated scope to the proposed installation. Even appropriate product evidence leaves system questions such as selectivity, source-load compatibility, and operating sequences. Product evaluation is an essential part of the evidence chain; it is not the entire chain.

@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Two voltage labels can look alike while describing different things. A voltage class establishes a scope category. A nominal voltage identifies a system family. A rated voltage belongs to equipment and its specified conditions. An operating range describes what a source delivers or what a load accepts during actual operation.
+
+This distinction matters when reading the preferred voltage discussion in the paper. Values such as three hundred fifty, seven hundred, and fourteen hundred volts appear in a standardization context. They are not a substitute for the rating and behavior of the products in a proposed installation. The associated amendment work must be distinguished from a published requirement.
+
+Notation also carries information. A slash can describe conductor-to-midpoint and pole-to-pole values in a bipolar arrangement. A plus-or-minus label describes the relationship of poles to a reference. Neither label by itself proves the voltage that an insulation system can experience relative to earth, particularly during a fault or a change in referencing.
+
+For every voltage on a drawing, ask: between which two points, under which state, and for how long? Then identify whether the value is a nominal label, a product rating, or a required operating condition. That small discipline prevents a nominal label from being mistaken for a compatibility guarantee.

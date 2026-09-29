@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A compliance discussion becomes clearer when each requirement is attached to the boundary it governs. System guidance addresses how the architecture and interfaces work together. Product requirements address evaluated equipment and its intended functions. Installation requirements address how equipment is selected and installed in a jurisdiction. Utility requirements govern the connection to the network.
+
+A single document rarely answers all four questions. A converter certificate does not approve every possible facility arrangement around it. A white paper does not replace an adopted installation code. A satisfactory internal D C bus does not, by itself, establish compliance at the utility connection.
+
+For each boundary, identify the responsible reviewer and the evidence they need. The product supplier may provide certification and application limits. The system integrator may provide coordination and verification studies. The authority having jurisdiction evaluates the applicable installation requirements, while the utility has its own connection process.
+
+Keep the document edition and scope visible. A familiar standard number is not enough if the proposed product function or application is outside its evaluated scope. Similarly, a published document may not be the edition adopted for the installation.
+
+The diagram is an evidence map, not a claim that all approval processes have the same organization. Use it to avoid gaps between responsibilities. A credible deployment review can explain which requirement governs each boundary and where the corresponding evidence will come from.

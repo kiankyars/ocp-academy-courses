@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+A noise path is a complete circuit, even when part of it is easy to overlook. Begin with a converter, a load, their power conductors and bonded enclosures. The physical arrangement and the equivalent circuit describe the same system. High-frequency current can use capacitance and bonding paths that are not obvious in a simple power-flow drawing.
+
+For differential mode noise, current travels outward on one power conductor and returns on the other. Follow the whole loop between converter and load. The animated arrows indicate a representative instantaneous direction; the noise varies with time. They do not represent a new direct-current power source. Conductor arrangement and loop geometry influence the behavior that must be evaluated.
+
+For common mode noise, currents on the power conductors have the same instantaneous direction relative to the reference. The return is elsewhere. Trace it through capacitance to the enclosure, along the bonding path, and back through the converter's coupling path. An earth symbol does not make the current disappear. The complete return path is essential to understanding the interference.
+
+Introduce a conceptual filtering and bonding arrangement. The high-frequency route changes, but the current still closes a loop. A filter may reduce disturbance at one boundary while changing current elsewhere. Its behavior depends on frequency, impedance, layout and the connected equipment. This drawing identifies those relationships. It does not prescribe a filter topology or promise a numerical reduction in emissions.
+
+Follow the return path in the actual installation, including bonds, cable geometry and parasitic capacitances. Then select representative emissions and immunity checks. Converter interaction and bus stability also need system-level review, but they are not simply another name for common mode noise. Keep those behaviors distinct while coordinating the architecture, filtering, earthing and verification evidence.

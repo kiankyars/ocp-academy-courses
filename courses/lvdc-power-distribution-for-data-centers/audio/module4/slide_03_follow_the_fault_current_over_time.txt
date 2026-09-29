@@ -1,0 +1,21 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A fault is not supplied by a single ideal current source. Immediately after a low-impedance fault begins, charged capacitors can discharge into the fault path.
+
+Cable and circuit inductance shape the rate of current rise. Converter controls and switching devices then influence the continuing contribution.
+
+The load side may contribute too. Input capacitors and other connected energy sources can backfeed toward the fault, depending on the circuit and the devices between them.
+
+Looking only at the upstream supply's steady-state current limit can therefore miss important parts of the event.
+
+Different converters can be fault limiting or fault feeding under different conditions. A commanded current limit is not automatically the current seen during the first instant of a fault.
+
+The relevant evidence includes the converter's actual transient response, stored energy, blocking behavior, and interaction with downstream protection.
+
+The diagram separates these contributions without assigning universal current peaks or timing.
+
+The source paper includes examples with conflicting numerical labels, so this course uses the qualitative mechanism instead of presenting those values as a validated design case.
+
+For a protection study, identify every energy source that can reach the fault. Include the operating configurations that alter those paths, such as a bus tie, local storage, or another connected converter.
+
+Then evaluate the current waveform and the device duties together. The fault response belongs to the complete connected system, not just the component nearest the fault.

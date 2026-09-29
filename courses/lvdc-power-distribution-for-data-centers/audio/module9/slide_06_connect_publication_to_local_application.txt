@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Publication, adoption, and acceptance are separate facts. A standards body can publish a new edition before a jurisdiction adopts it, and different jurisdictions can apply different editions or additional requirements. The date on the newest document therefore does not, by itself, identify the installation's governing rules.
+
+Establish the location, application, and responsible authority. Identify the applicable code edition and any relevant amendments, then confirm how the proposed equipment and system fit within that framework. The authority having jurisdiction has a specific role in that process; it should not be treated as a generic final signature detached from the requirements.
+
+The utility connection follows its own requirements and agreements. The required grid behavior, evidence, and approval process can be distinct from the installation's product and electrical-code review. Both need to be included in the deployment plan.
+
+Maintain an evidence register rather than a loose list of standards. Record the requirement, edition, scope, responsible party, and the document or test result that addresses it. Where applicability remains unresolved, assign an owner and an action instead of assuming that the newest publication automatically applies.
+
+This course teaches the structure of that review. It does not determine the legal requirements for a particular site. A deployment decision needs the current, site-specific information from the relevant authorities, utility, and qualified project team, linked to the actual equipment and installation.

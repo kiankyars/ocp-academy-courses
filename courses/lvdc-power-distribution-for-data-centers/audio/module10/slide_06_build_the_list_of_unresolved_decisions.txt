@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+A useful review leaves a prioritized evidence list. Put decisions that shape other work near the top. An unresolved voltage contract or earthing choice can affect product selection, protection, insulation, filtering, and the operating sequence. Those interfaces should be agreed before later evidence is interpreted as final.
+
+Then identify the system behaviors that need demonstration. Protection studies must include the relevant energy sources and the tolerance of healthy loads. Stability and electromagnetic compatibility work must represent the connected converters and physical paths. Operating tests must cover normal transitions and exceptions, including cooling and communication failures where they are relevant.
+
+Finally, assemble the deployment evidence. Confirm product certification scope, applicable installation and utility requirements, and the acceptance process. Assign an owner to each open item and define what result would close it. An unresolved item should not disappear because a supplier has delivered a different, useful document.
+
+The Open Data Center for A I companion course broadens this view to facility compatibility and evidence for site variations. Use it when the L V D C proposal must be reconciled with hall and row capacity, cooling capability, physical constraints, and other site conditions.
+
+The final review can support progress without pretending all uncertainty is gone. It should distinguish accepted evidence, assumptions awaiting confirmation, and issues that prevent acceptance of a particular claim. That structure gives the project team a concrete next action for each remaining gap.

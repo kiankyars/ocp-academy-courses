@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Filtering cannot be separated from the earthing discussion. Capacitors and other filter elements create frequency-dependent current paths. A connection that helps manage switching noise can also influence leakage, distributed capacitance, insulation monitoring, or the current associated with a fault.
+
+This is especially important when a system's earth relationship depends on high impedance or insulation monitoring. The collection of cables and filters across many connected products may behave differently from one product on a test bench. Adding another converter can change the overall path even if that converter works correctly by itself.
+
+Ask how the filter connects to the power conductors, chassis, and protective system. Which currents are intended? Which monitoring functions see those paths? What happens in the normal, startup, disconnected, and faulted states? The answer must be consistent with the selected polarity and earthing configuration.
+
+Do not respond to an interference problem by changing a protective connection casually. A mitigation must preserve the required protective and insulation functions. The design needs both electromagnetic and electrical-safety review where those functions interact.
+
+The diagram makes the shared interface visible. It does not provide component values or authorize a bonding arrangement. For an actual installation, coordinate the filter specification, the equipment's installation instructions, the monitoring method, and the representative system tests. That coordination helps avoid solving one problem by creating another at a different boundary.

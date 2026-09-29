@@ -1,0 +1,11 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+The paper includes industrial examples and historical data-center context. These demonstrate that D C architectures have been explored and deployed under particular conditions. They do not establish a universal efficiency gain, cost saving, or availability result for a new A I facility.
+
+When using a case study, ask which loads, conversion stages, operating points, and comparison boundary produced the reported result. Then determine what is similar to the proposed installation and what is different. A transferable mechanism can be useful even when the numerical outcome is not transferable.
+
+The six companion Academy courses provide different kinds of depth. Grid disturbance performance develops the utility-interface and recovery questions. Open Data Center for A I connects electrical decisions to facility compatibility. Solid state transformers explores conversion and its product envelope. Energy storage systems develops deployment, hazards, and acceptance evidence. Diablo four hundred examines a rack-side product boundary and its supporting interfaces. Project Deschutes examines coolant distribution unit architecture, controls, power feeds, and serviceability.
+
+These are optional related learning paths, not additional completion requirements for this course. Earlier L V D C material within a companion course does not supersede the version one dot one baseline used here. Follow the linked paper pages and the current official documents when resolving a specific technical question.
+
+The practical outcome is a better review conversation. You can name the interface, explain the intended behavior, and request the evidence that would make a claim credible. That is the foundation for disciplined collaboration across product, facility, controls, and operations teams.

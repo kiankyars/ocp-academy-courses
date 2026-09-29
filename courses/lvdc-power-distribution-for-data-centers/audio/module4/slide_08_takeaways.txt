@@ -1,0 +1,9 @@
+# pronunciation: LVDC = L V D C; OCP = O C P; AC = A C; DC = D C. Technical numbers and abbreviations are written for speech in the body.
+
+Carry these three ideas into your next review. Include capacitor, converter and load-side contributions in the fault review. Coordinate interruption with healthy-load tolerance and recovery. Verify isolation and energy state; do not infer safety from an OFF command.
+
+Fault behavior depends on the whole system. A device’s speed does not by itself establish selectivity, electrical isolation or safe maintenance conditions.
+
+Pause for a brief application before continuing. Choose one claim about a protective device. Does it describe interruption, current limitation, isolation, or verification? What evidence supports that exact function?
+
+A useful answer identifies a specific interface, condition, or piece of evidence. If the answer depends on an assumption, state that assumption explicitly. This makes the next discussion with a product, facility, controls, or operations specialist more focused.

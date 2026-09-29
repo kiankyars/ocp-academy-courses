@@ -1,0 +1,11 @@
+# pronunciation: OCP = O C P; LVDC = L V D C; DC = direct current; CDU = coolant distribution unit; M = midpoint M.
+
+A source and a rack can carry the same nominal voltage label without being compatible in every operating state. Measure at both ends of the actual connection. The rack sees source behavior combined with conductor drop and intermediate equipment. The outgoing and return conductors are both part of that circuit. The review must use the voltage delivered at the load terminals.
+
+The paper compares a short sidecar connection with a longer distribution run. In its resistive-drop example, the long run leaves twelve point four volts of a twenty-volt lower-side margin available for control. The example uses two hundred kilowatts, two hundred fifty amperes, and its stated conductor and distance assumptions. It demonstrates how distribution consumes margin; it is not a general cable-sizing recommendation.
+
+Move now to a separate qualitative load-change case. Increasing demand raises current and conductor drop, so the voltage at the rack falls relative to the source. If the selected source reaches its current limit, it cannot necessarily maintain the requested voltage or power. The exact response depends on the source and load converters. Do not transfer the preceding example's numerical drop into this transient.
+
+Compare the delivered-voltage excursion with the load's input requirements and permitted duration. One illustrative disturbance recovers within the assumed tolerance. Another remains outside that tolerance for too long. Equal nominal voltages cannot distinguish these outcomes. Stored energy, power availability and recovery behavior belong in the compatibility review along with the normal operating range.
+
+The evidence must connect three things: the validated source envelope, calculated or measured distribution effects, and the load's required voltage, time and power envelope. Returning sources or several loads reconnecting together can create another transient. Keep the paper's proposed numerical envelopes separate from settled interface requirements. The decision belongs at the connected interface, across all relevant operating states.
