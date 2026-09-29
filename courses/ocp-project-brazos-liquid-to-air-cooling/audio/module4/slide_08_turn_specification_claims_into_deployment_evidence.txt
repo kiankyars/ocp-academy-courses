@@ -1,0 +1,3 @@
+# pronunciation:
+
+The default loops regulate differential pressure and approach temperature. Startup, reboot, supervisory handover, and failures have distinct behavior. Interfaces expose different control and monitoring functions. Acceptance requires representative performance, service, compliance, and quality evidence for the delivered system. When a claim is unresolved, name the missing evidence and its owner before closing the decision.

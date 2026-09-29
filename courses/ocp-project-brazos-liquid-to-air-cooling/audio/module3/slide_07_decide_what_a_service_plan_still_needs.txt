@@ -1,0 +1,11 @@
+# pronunciation: IT -> I T
+
+A proposed service plan says: remove one chassis, replace a failed assembly, and return the unit to the rack while the I T load continues. Before accepting that plan, separate what has been stated from what has been demonstrated.
+
+First, establish the load and the remaining cooling capability. The plan needs evidence at the relevant air and liquid conditions, including flow and control response. A nominal full-rack capacity statement does not answer the reduced-equipment question.
+
+Second, verify the physical method. The rack, slides, interlock, lift assist, and working space must support the intended activity. The supplier’s procedure must specify how the actual unit is handled and how it is made ready for removal and return. Do not invent those steps from the component drawing.
+
+Third, confirm the replacement assembly and its traceability. A similar-looking part is not evidence of approved compatibility. Check the qualified part identity, connector and keying arrangement, and the documentation for the installed vendor’s implementation.
+
+Finally, identify how success will be observed. The plan should name the applicable status, leak, pressure, temperature, and flow checks, together with the expected service outcome. If the evidence is incomplete, record an open action with an owner. That is a useful engineering decision, not a failure to understand the specification.

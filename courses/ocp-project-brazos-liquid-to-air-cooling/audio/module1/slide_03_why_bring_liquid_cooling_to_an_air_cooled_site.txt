@@ -1,0 +1,7 @@
+# pronunciation: IT -> I T; OCP -> O C P
+
+Brazos addresses a practical deployment problem. The I T equipment needs liquid at its cooling interfaces, while the building already removes heat through air. Replacing the facility cooling distribution can be a substantial project. Brazos introduces a local liquid loop whose heat ultimately returns to that existing air system.
+
+Google introduced Brazos in June twenty twenty-six. The O C P specification used here is version zero point seventy-five point four, effective September eleventh, twenty twenty-six. Its design requirements give us a more detailed basis for review than the original launch description.
+
+The opportunity is incremental deployment, subject to site capacity. An available rack position does not establish sufficient electrical power, acceptable air temperature, or enough air-handling capacity. Those remain engineering questions. Start with a specific I T load and a specific location, then test whether the complete cooling path can support them.

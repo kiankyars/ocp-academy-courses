@@ -1,0 +1,3 @@
+# pronunciation:
+
+This course follows four connected decisions. First, understand the heat path. Next, interpret performance under the conditions that produced it. Then check physical integration and service continuity. Finally, connect control behavior and validation evidence to a deployment decision. Use the linked specification for exact requirements and the companion courses for deeper study.

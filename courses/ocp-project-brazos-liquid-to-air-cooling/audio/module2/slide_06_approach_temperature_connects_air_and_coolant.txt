@@ -1,0 +1,11 @@
+# pronunciation: IT -> I T
+
+Approach temperature is the cold liquid supply temperature minus the cold inlet-air temperature. It describes how close the delivered coolant temperature comes to the entering air temperature at that operating point. It is not the temperature rise of the liquid across the I T equipment.
+
+Consider a clearly illustrative case: inlet air at twenty-nine degrees Celsius and liquid supply at thirty-seven degrees. The approach is eight degrees. If the inlet air becomes warmer while that approach remains unchanged, the liquid supply becomes warmer by the same amount. Maintaining an approach target does not maintain one absolute coolant temperature.
+
+The liquid return temperature introduces another constraint. It depends on the heat gained in the I T loop and on coolant flow and properties. The control system separately provides a maximum return-liquid temperature function. Keeping those quantities distinct helps explain why more than one limit may matter at once.
+
+The specification includes nominal and modeling environmental conditions. Those ranges are not a blanket promise of full thermal capacity at every altitude and temperature. Likewise, compatibility with deionized water and a twenty-five-percent propylene glycol mixture does not prove identical performance with the two fluids.
+
+For the site review, specify the actual entering air condition, coolant formulation, flow, and thermal load. Then obtain performance evidence at those conditions. Use the approach value as one part of the temperature budget, together with the I T equipment’s allowable supply and return conditions.

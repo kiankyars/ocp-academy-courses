@@ -1,0 +1,3 @@
+# pronunciation:
+
+By the end of this module, you’ll distinguish rack ratings from chassis data, explain approach temperature, and read available pump head against the external load. You’ll also include cooling power in the electrical and heat budget. For each claim, identify the boundary, operating conditions, and evidence behind the number.

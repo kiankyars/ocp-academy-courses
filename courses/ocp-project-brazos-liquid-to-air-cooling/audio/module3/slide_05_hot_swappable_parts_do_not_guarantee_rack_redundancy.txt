@@ -1,0 +1,11 @@
+# pronunciation: IT -> I T; N+1 -> N plus one
+
+Field-replaceable components support maintainability, but different service actions have different consequences. The design includes hot-swappable pumps and fans, along with other serviceable assemblies. The supplier’s approved procedure determines the handling, isolation, and checks for the particular action.
+
+Removing a complete chassis is a larger change. Section twelve point one states that the whole unit may be hot-swapped only when the cooled I T load is below the capability of the other connected Brazos units on the shared manifold. Otherwise, the affected I T equipment may need to be powered down because cooling would be unavailable.
+
+That condition requires more than dividing a nominal rack rating by three. Verify the remaining units’ thermal and hydraulic capability under the actual air, coolant, and load conditions. Include the control response during removal and return to service. A three-unit arrangement alone does not establish a sixty-kilowatt N plus one claim.
+
+Parts qualification is another boundary. The specification allows component second sourcing within a qualified assembly, while requiring all three chassis in one Brazos rack to come from the same vendor. It also calls for physical keying to prevent incorrect cross-vendor field-replaceable-unit insertion.
+
+Treat service continuity as a claim that needs evidence. Name the component or chassis being removed, identify the remaining cooling path and capacity, and verify the procedure for that exact implementation.

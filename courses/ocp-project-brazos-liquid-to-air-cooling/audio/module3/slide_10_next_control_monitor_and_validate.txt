@@ -1,0 +1,3 @@
+# pronunciation:
+
+Thank you for completing Integrate and Service the Rack. Next, we’ll connect control behavior, monitoring, and supplier evidence to a final deployment-readiness decision.

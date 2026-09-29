@@ -1,0 +1,9 @@
+# pronunciation:
+
+The overview table gives a useful starting point: sixty kilowatts of rack thermal load, nineteen gallons per minute of deionized-water flow, and twenty-five pounds per square inch of liquid pressure differential. It also lists an eight-degree approach temperature. These values describe the rack-level design target, not interchangeable ratings for every coolant or installation.
+
+The airflow entry is approximately seventy-seven hundred cubic feet per minute at maximum fan speed, with zero hot-aisle back pressure. That condition matters. Additional resistance in the exhaust path can change the available flow. A site review therefore needs evidence for the installed air path rather than the headline airflow alone.
+
+The detailed thermal table contains an unresolved condition issue. Its caption says nominal flow is twelve point eight gallons per minute. Yet the sixty-kilowatt column gives flow per kilowatt values that imply approximately nineteen point three to nineteen point five gallons per minute. Do not treat every load column as one constant-flow experiment.
+
+The practical response is to keep the published values and their stated conditions visible, then request clarification before using that comparison to size an installation. A specification is useful evidence, and reading it carefully includes recognizing where two entries do not describe the same test condition.

@@ -1,0 +1,3 @@
+# pronunciation: IT -> I T
+
+Brazos circulates a closed liquid loop through the I T equipment and transfers its heat to air. The sidecar combines three cooling chassis with shared rack manifolds. Component, chassis, and rack values describe different boundaries. The site still needs electrical capacity and a complete air-side heat-removal path. Use those boundaries to organize every performance and deployment question that follows.

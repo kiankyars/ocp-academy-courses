@@ -1,0 +1,11 @@
+# pronunciation:
+
+Fan speed changes both airflow and electrical demand. The chassis data provides measured comparison points, which we will keep separate from the rack-level thermal table. Here, airflow is reported as standard cubic feet per minute, and power refers to the chassis fans.
+
+At fifty-four percent fan speed, the table lists twelve hundred twenty-two standard cubic feet per minute and three hundred six watts of fan power. At sixty-five percent, the airflow rises to fifteen hundred fifty-five, while power rises to five hundred sixty-six watts. These are two operating points, not a promise about every installed condition.
+
+At seventy-six percent speed, airflow is eighteen hundred seventy-seven and fan power is eight hundred eighty-four watts. At eighty-eight percent, those figures become twenty-two hundred thirteen and thirteen hundred twenty-seven watts. The gain in airflow comes with a growing electrical cost.
+
+At full speed, the listed airflow reaches twenty-six hundred twenty-two standard cubic feet per minute, with nineteen hundred eighty-two watts of fan power. Compared with the fifty-four-percent point, that is a little over twice the airflow and roughly six and a half times the fan power. This comparison uses the table entries; it is not a fitted fan law.
+
+Select a working point against the actual thermal requirement and air-path resistance. Maximum speed is available for particular conditions, including specified failure responses, but it carries a power and acoustic consequence. Keep chassis fan power distinct from pump power and total cooling-rack power when assembling the site budget.

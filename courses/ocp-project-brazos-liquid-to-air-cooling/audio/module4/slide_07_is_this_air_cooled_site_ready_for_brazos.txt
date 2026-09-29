@@ -1,0 +1,13 @@
+# pronunciation: IT -> I T
+
+Apply the course to a fictional proposal. The connected I T liquid load is sixty kilowatts. The site has identified floor space for a Brazos sidecar and points to the nominal rack rating. The proposal also assumes that I T service will continue while one chassis is replaced.
+
+Some facts are useful, but the decision is not yet complete. The nominal rating and space allocation establish a starting point. They do not show the actual inlet-air condition, the exhaust resistance, or the room’s remaining heat-removal capacity. Nor do they include the cooling electrical demand and any other relevant loads.
+
+The liquid side also needs evidence. Confirm the required flow and pressure drop, the selected coolant formulation, and the compatibility of the installed wetted materials and connectors. Verify the complete installation envelope, hose routing, and service access against the applicable drawings and procedures.
+
+The service assumption is especially important. Ask for demonstrated capability with the relevant chassis unavailable at the intended load and operating conditions. Identify the remaining flow paths and the controller’s response. Without that evidence, the whole-chassis service-continuity claim remains unresolved.
+
+Finally, check that monitoring and acceptance records cover the installed system. Who owns each alarm or control interface? Which failure tests were completed? Which supplier procedures and qualified parts will the operations team use?
+
+The justified decision is to hold deployment acceptance until these gaps are closed, with named owners and evidence requirements. This does not say Brazos is unsuitable. It says the available information is insufficient to support this particular proposal. That distinction is the central skill: turn an attractive architecture into a qualified, evidence-based decision.

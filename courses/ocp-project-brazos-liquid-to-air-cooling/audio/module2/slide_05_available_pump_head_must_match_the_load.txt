@@ -1,0 +1,11 @@
+# pronunciation: IT -> I T
+
+A pump curve connects flow with the pressure head available to overcome the external hydraulic load. The Brazos rack curves are for three chassis, each containing two pumps operating in parallel. That population is part of the curve’s meaning.
+
+Choose a pump-speed curve and follow it from low toward higher flow. Available differential pressure falls along the curve. The external loop also has a flow-dependent resistance from the I T equipment, hoses, manifolds, valves, and connections. The operating point must satisfy both the available pump head and that installed resistance.
+
+Raising pump speed changes the available head, but it also changes electrical power. The separate pump-power plot supports that second question. Do not read an external pressure differential as an absolute system pressure, and do not substitute the expansion tank’s pressure rating for either quantity.
+
+For deployment, obtain the required I T flow and its corresponding pressure drop, plus the remaining external loop losses. Use consistent units and the specified coolant conditions. Confirm that the installed system can operate at that point with the required control margin.
+
+Finally, ask for the degraded-operation evidence. A curve with every installed pump running does not establish the performance after a pump or complete chassis becomes unavailable. That requires a corresponding test or qualified model under the failure condition being claimed.

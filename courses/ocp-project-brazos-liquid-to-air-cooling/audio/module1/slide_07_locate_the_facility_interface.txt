@@ -1,0 +1,9 @@
+# pronunciation: IT -> I T; OCP -> O C P
+
+Compare two ways of connecting liquid-cooled I T to the facility. In a liquid-to-liquid architecture, the coolant distribution unit transfers I T-loop heat into facility water. The facility-water conditions and connections become central integration requirements. The O C P Project Deschutes course explores that architecture in greater detail.
+
+Brazos uses a liquid-to-air interface. The local I T loop transfers heat into air passing through the chassis. The design therefore removes the need for a facility-water connection at this cooling interface. It still needs a suitable air inlet, an exhaust path, and facility heat-removal capacity.
+
+An air-cooled site may also have its own upstream water use or water-based equipment. The phrase liquid-to-air describes the Brazos interface; it does not establish a water-consumption claim for the entire facility. Similarly, avoiding one retrofit does not guarantee an available electrical or thermal margin.
+
+For a candidate location, ask where the incoming air comes from and where the exhaust goes. Check whether the hot aisle can accept the flow and temperature, and whether nearby equipment remains within its limits. Then include the power used by cooling equipment in the site budget. The useful comparison is between complete heat-removal paths serving the same workload.

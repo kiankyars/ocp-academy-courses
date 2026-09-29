@@ -1,0 +1,11 @@
+# pronunciation: ORV3 -> Open Rack version three; ORV2 -> Open Rack version two; Z2 -> Z two; SH -> S H
+
+The eleven-Open-Unit chassis height is only the start of a fit review. The specification defines a keep-in volume, exclusions, front and rear protrusions, and use-specific exceptions. The main nominal dimensions are five hundred sixty-five point five millimeters wide, five hundred twenty-five high, and six hundred nine point six deep.
+
+The depth of that main volume is not the complete installed depth. Later requirements include connector and handle exceptions, with an actual total depth stated as eight hundred thirteen point seven millimeters. Check the full geometry for the selected configuration, including hose routing and access to the front components.
+
+The design covers the Z two rack and the proprietary S H interface. It uses an Open Rack version two-compatible power connector with specified enhanced features, even though the overall deployment uses the Open Rack version three form factor. The rack label alone does not prove connector position or adapter compatibility.
+
+Service adds another envelope. The specified maintenance and replacement activities, including lift-assist use, must fit within forty-eight inches in front of the rack. Fans also have rear service provisions, so assess the complete access arrangement. The dry and filled weights require appropriate handling equipment and the supplier’s approved method.
+
+For acceptance, review the applicable drawing revision, adapters, busbar mating, manifold clearances, and service access together. A dimensional match to the main chassis box is not enough to establish a serviceable installation.

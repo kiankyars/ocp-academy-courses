@@ -1,0 +1,11 @@
+# pronunciation:
+
+A requirements list becomes useful deployment evidence when the supplier demonstrates the behavior of the delivered system. Start with thermal and hydraulic performance under the intended conditions. Include inlet air, exhaust resistance, coolant, flow, load, and the equipment population used in the test.
+
+Next, review dynamic and abnormal cases. The validation section includes heat-load changes, fan and pump failures, control failures, telemetry loss, and leak detection. The purpose is to connect a stimulus to an observed response and verify the monitoring that reports it. A nominal steady-state result does not cover all of those cases.
+
+Physical service trials provide a different kind of evidence. Fit, removal, replacement, handling, connector cycling, and return to service need demonstration in the relevant arrangement. Safety, electromagnetic compatibility, and regulatory documentation must apply to the delivered implementation and its operating environment.
+
+Reliability and manufacturing records complete the picture. The specification calls for component and system testing, traceability, and qualification across development stages. Exact test conditions and acceptance criteria belong in the approved test plan, especially where the specification’s tables contain inconsistent or incomplete entries.
+
+For each open item, record the claim, the applicable requirement, the evidence, and an owner for the remaining action. Acceptance is a documented judgment about a particular implementation and site. It is not established by the specification’s existence or by a supplier’s headline capacity statement.

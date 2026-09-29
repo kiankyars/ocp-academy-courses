@@ -1,0 +1,11 @@
+# pronunciation: PG25 -> P G twenty-five; IT -> I T
+
+Viewed from the front, the rack’s supply manifold is on the right and the return manifold is on the left. Each connects to the three cooling chassis and combines the flow into a connection near the top for the neighboring I T rack. Passive air vents and their quick-disconnect interfaces are part of the arrangement.
+
+Connection geometry matters beyond the connector name. Check hose routing, front protrusions, swivel and elbow requirements, and the access needed for serviceable parts. Where the specification identifies a named quick-disconnect as an example, do not turn that example into an unsupported sole-source requirement. The specified interface and qualification requirements still apply.
+
+Wetted materials must be compatible with deionized water and P G twenty-five, the twenty-five-percent propylene glycol mixture. The document lists examples of treated-water and glycol formulations and explicitly excludes nickel-plated brass from the system. A fluid-family label alone does not establish compatibility with every seal, metal, hose, or component in the installed loop.
+
+Use the linked Cooling Fluids in Direct Liquid Cooling course for a deeper treatment of chemistry, material compatibility, sampling, and fluid health. For Brazos, obtain the exact approved formulation and the supplier’s installation and commissioning instructions. Do not infer a mixing or dosing procedure from a material-compatibility statement.
+
+The acceptance question is whether the actual fluid, actual wetted materials, and actual liquid interfaces form a qualified system.

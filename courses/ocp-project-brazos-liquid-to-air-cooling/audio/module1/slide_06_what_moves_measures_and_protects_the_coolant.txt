@@ -1,0 +1,11 @@
+# pronunciation:
+
+A Brazos chassis brings several functions together. The pumps move coolant around the external loop. Check valves limit reverse flow through a pump that is not operating. The radiator transfers heat to air, while the fan array establishes the air path through it.
+
+The strainers capture particles before they can continue through sensitive parts of the circuit. The specification lists three-hundred-and-twenty-five mesh, or forty-four microns. This is a component requirement within the design, not a complete water-quality or cleaning strategy. The expansion tank accommodates the loop’s expansion behavior within its specified pressure and temperature limits.
+
+Sensors make the system observable. Supply and return temperatures describe the liquid’s thermal change. Pressure measurements support differential-pressure control. Flow measurements help establish whether circulation matches the requirement. Inlet and outlet air temperatures connect the air-side condition to the heat-transfer task.
+
+Leak detection adds another kind of evidence: whether liquid has escaped its intended path. It cannot replace pressure, flow, or temperature monitoring. A loop may have insufficient cooling without an external leak, and a leak signal does not by itself explain the remaining thermal capacity.
+
+Review these functions as a connected system. Moving fluid, transferring heat, filtering, accommodating expansion, and detecting abnormal conditions each answer a different operating question.
