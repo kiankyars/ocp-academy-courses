@@ -54,4 +54,4 @@ SCORM 1.2 multi-SCO and syllabus entries are preserved. Test actual LMS launch, 
 
 ## M9S2 pronunciation correction — 26 September 2026
 
-Replaced the spoken initialism in the reported sentence with “Low-voltage direct current” and regenerated only M9S2 with the recorded Leo v2 / Multilingual v2 / 1.18 settings. Local transcription recognizes the complete phrase, and Module 9 audio-tail checks and package validation pass. The other 99 WAVs and all videos are unchanged. Total measured narration remains 105.2 minutes. The delivery transcript and ZIP were refreshed. GitHub upload is paused at the user's request pending a better network; no PR has been opened.
+Replaced the spoken initialism in the reported sentence with “Low-voltage direct current” and regenerated only M9S2 with the recorded Leo v2 / Multilingual v2 / 1.18 settings. Local transcription recognizes the complete phrase, and Module 9 audio-tail checks and package validation pass. The other 99 WAVs and all videos are unchanged. Total measured narration remains 105.2 minutes. The delivery transcript and ZIP were refreshed.
