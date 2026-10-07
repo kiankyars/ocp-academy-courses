@@ -12,6 +12,20 @@ This course source is intended for PR-friendly editing. Change slides, quiz cont
 
 The module includes a knowledge check before the final course-completion slide.
 
+## LMS poster
+
+[`thumbnail.png`](thumbnail.png) is the 800×400 OCP Academy catalog poster.
+Its editable renderer uses the repository's shared Lato font and a cached
+raster of the authoritative OCP Academy logo. The green badge is vertically
+centered, and title characters share a baseline so the hyphen in `SCALE-UP`
+aligns correctly.
+
+Regenerate it from the repository root with Python and Pillow installed:
+
+```bash
+python3 courses/ocp-esun-ethernet-for-scale-up-networks/render_thumbnail.py
+```
+
 ## Language editions
 
 - English is the canonical source in this folder.
